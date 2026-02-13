@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>JSON — Википедия</title>
+<script>(function(){var className="client-js";var cookie=document.cookie.match(/(?:^|; )ruwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","январь","февраль","март","апрель","май","июнь","июль","август","сентябрь","октябрь","ноябрь","декабрь"],"wgRequestId":"6beb6612-28ba-4df2-90e7-40704a49834e","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"JSON","wgTitle":"JSON","wgCurRevisionId":150979769,"wgRevisionId":150979769,"wgArticleId":198033,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Страницы, использующие устаревший тег source","Википедия:Cite web (не указан язык)","Википедия:Cite web (заменить webcitation-архив: deadlink no)","Википедия:Статьи с источниками из Викиданных","ПРО:ИТ:Статьи по алфавиту","ПРО:ИТ:Последняя правка: в текущем году","Википедия:Статьи с разделами без ссылок на источники с мая 2018 года","Википедия:Статьи без источников (тип: формат файла)","Статьи с примерами кода JavaScript","Страницы, использующие волшебные ссылки RFC","Форматы файлов","Веб-программирование","AJAX","JavaScript"],"wgPageViewLanguage":"ru","wgPageContentLanguage":"ru","wgPageContentModel":"wikitext","wgRelevantPageName":"JSON","wgRelevantArticleId":198033,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"accuracy":{"levels":1}}},"wgStableRevisionId":150979769,"wgConfirmEditCaptchaNeededForGenericEdit":false,"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":0,"wgVisualEditor":{"pageLanguageCode":"ru","pageLanguageDir":"ltr","pageVariantFallbacks":"ru"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":40000,"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgVector2022LanguageInHeader":false,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q2063","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGESuggestedEditsTaskTypes":{"taskTypes":["copyedit"],"unavailableTaskTypes":[]},"wgGETopicsMatchModeEnabled":false,"wgGELevelingUpEnabledForUser":false,"wgGEUseTestKitchenExtension":true,"wgMetricsPlatformUserExperiments":{"active_experiments":[],"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[],"sampling_units":[],"coordinator":[]},"wgTestKitchenUserExperiments":{"active_experiments":[],"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[],"sampling_units":[],"coordinator":[]}};
+RLSTATE={"ext.gadget.common-site":"ready","ext.gadget.logo":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.pygments":"ready","skins.vector.styles.legacy":"ready","ext.flaggedRevs.basic":"ready","mediawiki.codex.messagebox.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.pygments.view","ext.scribunto.logs","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.flaggedRevs.advanced","ext.gadget.collapserefs","ext.gadget.directLinkToCommons","ext.gadget.referenceTooltips","ext.gadget.edittop","ext.gadget.navboxDefaultGadgets","ext.gadget.WP25Banner","ext.gadget.wikibugs","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.bootstrap","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession","ext.xLab","ext.testKitchen"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=ru&amp;modules=ext.cite.styles%7Cext.flaggedRevs.basic%7Cext.pygments%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.codex.messagebox.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector">
+<script async="" src="/w/load.php?lang=ru&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=ru&amp;modules=ext.gadget.common-site%2Clogo&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/w/load.php?lang=ru&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<noscript><link rel="stylesheet" href="/w/load.php?lang=ru&amp;modules=noscript&amp;only=styles&amp;skin=vector"></noscript>
+<meta name="generator" content="MediaWiki 1.46.0-wmf.15">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1280px-JSON_vector_logo.svg.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="JSON — Википедия">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" type="application/x-wiki" title="Править" href="/w/index.php?title=JSON&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Википедия (ru)">
+<link rel="EditURI" type="application/rsd+xml" href="//ru.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://ru.wikipedia.org/wiki/JSON">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.ru">
+<link rel="alternate" type="application/atom+xml" title="Википедия — Atom-лента" href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D0%B5%D0%B6%D0%B8%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-JSON rootpage-JSON skin-vector action-view">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><!-- CentralNotice --></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">JSON</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">Материал из Википедии — свободной энциклопедии</div>
+		<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Перейти к навигации</a>
+		<a class="mw-jump-link" href="#searchInput">Перейти к поиску</a>
+		<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="ru" dir="ltr"><table class="infobox infobox-6ef8517180a2f5b3" style="" data-name="Файловый формат"><tbody><tr><th colspan="2" scope="colgroup" class="infobox-above" style="">JSON</th></tr><tr><td colspan="2" class="infobox-image" style=""> <span data-wikidata-claim-id="Q2063$54dfb966-46df-ea46-1d47-95497ffc8487" class="wikidata-claim" data-wikidata-property-id="P154"><span class="wikidata-snak wikidata-main-snak"><span typeof="mw:File/Frameless"><a href="/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:JSON_vector_logo.svg" class="mw-file-description"><img alt="Изображение логотипа" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/120px-JSON_vector_logo.svg.png" decoding="async" width="80" height="80" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/250px-JSON_vector_logo.svg.png 2x" data-file-width="160" data-file-height="160" /></a></span></span></span> </td></tr>
+<tr>
+<th scope="row" class="plainlist"><a href="/wiki/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D1%84%D0%B0%D0%B9%D0%BB%D0%B0" title="Расширение имени файла">Расширение</a></th>
+<td class="plainlist">
+<span data-wikidata-claim-id="Q2063$fda9ee1d-42ba-cf66-6726-a77ec8f6b220" class="wikidata-claim" data-wikidata-property-id="P1195"><span class="wikidata-snak wikidata-main-snak"><code>.json</code></span><sup id="cite&#95;ref-&#95;70357e99dab3e19f&#95;1-0" class="reference"><a href="#cite_note-_70357e99dab3e19f-1"><span class="cite-bracket">&#91;</span>1<span class="cite-bracket">&#93;</span></a></sup></span></td>
+</tr>
+<tr>
+<th scope="row" class="plainlist"><a href="/wiki/MIME" title="MIME">MIME</a>-тип</th>
+<td class="plainlist">
+<span data-wikidata-claim-id="Q2063$14aa8905-4e58-a62d-9173-b61632223495" class="wikidata-claim" data-wikidata-property-id="P1163"><span class="wikidata-snak wikidata-main-snak">application/json</span><sup id="cite&#95;ref-&#95;74633f2fcf22fde7&#95;2-0" class="reference"><a href="#cite_note-_74633f2fcf22fde7-2"><span class="cite-bracket">&#91;</span>2<span class="cite-bracket">&#93;</span></a></sup><sup id="cite&#95;ref-&#95;35b7757617abcf1f&#95;3-0" class="reference"><a href="#cite_note-_35b7757617abcf1f-3"><span class="cite-bracket">&#91;</span>3<span class="cite-bracket">&#93;</span></a></sup></span></td>
+</tr>
+<tr>
+<th scope="row" class="plainlist">Тип формата</th>
+<td class="plainlist">
+<span data-wikidata-property-id="P31" class="no-wikidata">Обмен данными</span></td>
+</tr>
+<tr>
+<th scope="row" class="plainlist">Расширен из</th>
+<td class="plainlist">
+<span data-wikidata-claim-id="Q2063$5129f5e4-49a5-312c-4e43-7b586b6a3743" class="wikidata-claim" data-wikidata-property-id="P144"><span class="wikidata-snak wikidata-main-snak"><a href="/wiki/JavaScript" title="JavaScript"><span lang="JavaScript">JavaScript</span></a></span></span></td>
+</tr>
+<tr>
+<th scope="row" class="plainlist">Стандарт(ы)</th>
+<td class="plainlist">
+<a class="external mw-magiclink-rfc" rel="nofollow" href="https://datatracker.ietf.org/doc/html/rfc8259">RFC 8259</a></td>
+</tr>
+<tr>
+<th scope="row" class="plainlist">Сайт</th>
+<td class="plainlist">
+<span data-wikidata-claim-id="Q2063$42fceac6-4c6a-599f-9a92-e406c8eecda1" class="wikidata-claim" data-wikidata-property-id="P856"><span class="wikidata-snak wikidata-main-snak"><a rel="nofollow" class="external text" href="https://json.org/">json.org</a>&#160;<span class="ref-info" title="на английском языке" style="cursor:help;">(англ.)</span></span></span></td>
+</tr><tr><td colspan="2" class="infobox-below" style=";"><span data-wikidata-claim-id="Q2063$21246A5F-B1C6-4E0B-A809-01EBDDD6EEA7" class="wikidata-claim" data-wikidata-property-id="P373"><span class="wikidata-snak wikidata-main-snak"><span typeof="mw:File"><a href="https://commons.wikimedia.org/wiki/Category:JavaScript_Object_Notation" title="commons:Category:JavaScript Object Notation"><img alt="Логотип Викисклада" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/20px-Commons-logo.svg.png" decoding="async" width="15" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png 1.5x" data-file-width="1024" data-file-height="1376" /></a></span>&#160;<a href="https://commons.wikimedia.org/wiki/Category:JavaScript_Object_Notation" class="extiw" title="commons:Category:JavaScript Object Notation">Медиафайлы на Викискладе</a></span></span></td></tr>
+</tbody></table>
+<p><b>JSON</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a>&#160;<span lang="en" style="font-style:italic;">JavaScript Object Notation</span>, в английском обычно произносится как <span class="nowrap"></span><span class="IPA nopopups"><span class="nowrap"><a href="/wiki/%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0_%D0%9C%D0%A4%D0%90_%D0%B4%D0%BB%D1%8F_%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0" title="Таблица МФА для английского языка">/<style data-mw-deduplicate="TemplateStyles:r113275842">'"`UNIQ--templatestyles-00000005-QINU`"'</style><span class="ts-comment-commentedText" title="/ˈ/ следует основное ударение">ˈ</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r113275842" /><span class="ts-comment-commentedText" title="/dʒ/ &#39;j&#39; в &#39;jam&#39;">dʒ</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r113275842" /><span class="ts-comment-commentedText" title="/eɪ/ долгий &#39;a&#39; в &#39;base&#39;">eɪ</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r113275842" /><span class="ts-comment-commentedText" title="&#39;s&#39; в &#39;sigh&#39;">s</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r113275842" /><span class="ts-comment-commentedText" title="/ən/ &#39;on&#39; в &#39;button&#39;">ən</span>/</a></span></span><sup id="cite&#95;ref-Pronunciation&#95;4-0" class="reference"><a href="#cite_note-Pronunciation-4"><span class="cite-bracket">&#91;</span>4<span class="cite-bracket">&#93;</span></a></sup>)&#160;— <a href="/wiki/%D0%A2%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82" class="mw-redirect" title="Текстовый формат">текстовый формат</a> <a href="/wiki/%D0%9E%D0%B1%D0%BC%D0%B5%D0%BD_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8" class="mw-redirect" title="Обмен данными">обмена данными</a>, основанный на <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>. Как и многие другие текстовые форматы, JSON легко читается людьми. Формат JSON был разработан <a href="/wiki/%D0%9A%D1%80%D0%BE%D0%BA%D1%84%D0%BE%D1%80%D0%B4,_%D0%94%D1%83%D0%B3%D0%BB%D0%B0%D1%81" title="Крокфорд, Дуглас">Дугласом Крокфордом</a><sup id="cite&#95;ref-5" class="reference"><a href="#cite_note-5"><span class="cite-bracket">&#91;</span>5<span class="cite-bracket">&#93;</span></a></sup>.
+</p><p>Несмотря на происхождение от JavaScript (точнее, от подмножества языка стандарта <a href="/wiki/ECMA-262" class="mw-redirect" title="ECMA-262">ECMA-262</a> <a href="/wiki/1999_%D0%B3%D0%BE%D0%B4" title="1999 год">1999 года</a>), формат считается независимым от языка и может использоваться практически с любым <a href="/wiki/%D0%AF%D0%B7%D1%8B%D0%BA_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F" title="Язык программирования">языком программирования</a>. Для многих языков существует готовый код для создания и обработки данных в формате JSON.
+</p><p>Передаваемый текст должен быть в кодировке <a href="/wiki/UTF-8" title="UTF-8">UTF-8</a> без <a href="/wiki/%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%80_%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8_%D0%B1%D0%B0%D0%B9%D1%82%D0%BE%D0%B2" title="Маркер последовательности байтов">BOM</a><sup id="cite&#95;ref-6" class="reference"><a href="#cite_note-6"><span class="cite-bracket">&#91;</span>6<span class="cite-bracket">&#93;</span></a></sup>.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="ru" dir="ltr"><h2 id="mw-toc-heading">Содержание</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Использование"><span class="tocnumber">1</span> <span class="toctext">Использование</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Синтаксис"><span class="tocnumber">2</span> <span class="toctext">Синтаксис</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#JSON5"><span class="tocnumber">3</span> <span class="toctext">JSON5</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Сравнение_с_YAML"><span class="tocnumber">4</span> <span class="toctext">Сравнение с YAML</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#JSON_Schema"><span class="tocnumber">5</span> <span class="toctext">JSON Schema</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Формат_JSON-LD_для_связанных_данных"><span class="tocnumber">6</span> <span class="toctext">Формат JSON-LD для связанных данных</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Использование_JSON_в_Ajax"><span class="tocnumber">7</span> <span class="toctext">Использование JSON в Ajax</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Вопросы_безопасности"><span class="tocnumber">8</span> <span class="toctext">Вопросы безопасности</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#JavaScript_eval()"><span class="tocnumber">8.1</span> <span class="toctext">JavaScript eval()</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Встроенный_JSON"><span class="tocnumber">8.2</span> <span class="toctext">Встроенный JSON</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Подделка_кроссдоменного_запроса"><span class="tocnumber">8.3</span> <span class="toctext">Подделка кроссдоменного запроса</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#JSONP_и_JSONPP"><span class="tocnumber">9</span> <span class="toctext">JSONP и JSONPP</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#JSONB"><span class="tocnumber">10</span> <span class="toctext">JSONB</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#См._также"><span class="tocnumber">11</span> <span class="toctext">См. также</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Примечания"><span class="tocnumber">12</span> <span class="toctext">Примечания</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Ссылки"><span class="tocnumber">13</span> <span class="toctext">Ссылки</span></a></li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2"><h2 id="Использование"><span id=".D0.98.D1.81.D0.BF.D0.BE.D0.BB.D1.8C.D0.B7.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5"></span>Использование</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=1" title="Редактировать раздел «Использование»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=1" title="Редактировать код раздела «Использование»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>За счёт своей лаконичности по сравнению с <a href="/wiki/XML" title="XML">XML</a> формат JSON может быть более подходящим для <a href="/wiki/%D0%A1%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" title="Сериализация">сериализации</a> сложных структур.
+Применяется в веб-приложениях как для обмена данными между <a href="/wiki/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80" title="Браузер">браузером</a> и сервером (<a href="/wiki/AJAX" title="AJAX">AJAX</a>), так и между серверами (программные <a href="/wiki/HTTP" title="HTTP">HTTP</a>-сопряжения).
+</p><p>Поскольку формат JSON является подмножеством синтаксиса языка JavaScript, то он может быть быстро десериализован встроенной функцией <code>JSON.parse()</code>.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Синтаксис"><span id=".D0.A1.D0.B8.D0.BD.D1.82.D0.B0.D0.BA.D1.81.D0.B8.D1.81"></span>Синтаксис</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=2" title="Редактировать раздел «Синтаксис»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=2" title="Редактировать код раздела «Синтаксис»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>JSON-текст представляет собой (в закодированном виде) одну из двух структур:
+</p>
+<ul><li>Набор пар <i>ключ: значение</i>. В различных языках это реализовано как <a href="/wiki/%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_(%D1%82%D0%B8%D0%BF_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)" title="Запись (тип данных)">запись</a>, <a href="/wiki/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85" title="Структура данных">структура</a>, <a href="/wiki/%D0%90%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2" title="Ассоциативный массив">словарь</a>, <a href="/wiki/%D0%A5%D0%B5%D1%88-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0" title="Хеш-таблица">хеш-таблица</a>, <a href="/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" title="Список (информатика)">список</a> с ключом или <a href="/wiki/%D0%90%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2" title="Ассоциативный массив">ассоциативный массив</a>. Ключом может быть только строка (<a href="/wiki/%D0%A7%D1%83%D0%B2%D1%81%D1%82%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%BA_%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D1%83_%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2" title="Чувствительность к регистру символов">регистрозависимость</a> не регулируется стандартом, это остаётся на усмотрение программного обеспечения. Как правило, регистр учитывается программами&#160;— имена с буквами в разных регистрах считаются разными, например<sup id="cite&#95;ref-7" class="reference"><a href="#cite_note-7"><span class="cite-bracket">&#91;</span>7<span class="cite-bracket">&#93;</span></a></sup>), значением&#160;— любая форма. Повторяющиеся имена ключей допустимы, но не рекомендуются стандартом; обработка таких ситуаций происходит на усмотрение программного обеспечения, возможные варианты&#160;— учитывать только первый такой ключ, учитывать только последний такой ключ, генерировать ошибку.</li>
+<li>Упорядоченный набор <i>значений</i>. Во многих языках это реализовано как <a href="/wiki/%D0%9C%D0%B0%D1%81%D1%81%D0%B8%D0%B2_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)" class="mw-redirect" title="Массив (программирование)">массив</a>, <a href="/wiki/%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2" class="mw-redirect" title="Индексный массив">вектор</a>, список или <a href="/wiki/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" title="Последовательность">последовательность</a>.</li></ul>
+<p>Структуры данных, используемые JSON, поддерживаются любым современным языком программирования, что и позволяет применять JSON для обмена данными между различными языками программирования и программными системами.
+</p><p>В качестве значений в JSON могут быть использованы:
+</p>
+<ul><li><b>запись</b>&#160;— это неупорядоченное множество пар <b>ключ</b>:<b>значение</b>, заключённое в фигурные скобки <i>«</i>{ }<i>»</i>. Ключ описывается <b>строкой</b>, между ним и значением стоит символ <i>«</i>:<i>»</i>. Пары <i>ключ-значение</i> отделяются друг от друга запятыми.</li>
+<li><b>массив</b> (одномерный)&#160;— это упорядоченное множество <b>значений</b>. Массив заключается в квадратные скобки <i>«</i>[ ]<i>»</i>. Значения разделяются запятыми. Массив может быть пустым, то есть не содержать ни одного значения. Значения в пределах одного массива могут иметь разный тип.</li>
+<li><b>число</b> (целое или вещественное).</li>
+<li><b>литералы</b> <i>true</i> (<a href="/wiki/%D0%9B%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%B8%D0%BF" title="Логический тип">логическое значение</a> «истина»), <i>false</i> (<a href="/wiki/%D0%9B%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%B8%D0%BF" title="Логический тип">логическое значение</a> «ложь») и <i>null</i>.</li>
+<li><b>строка</b>&#160;— это упорядоченное множество из нуля или более символов <a href="/wiki/%D0%AE%D0%BD%D0%B8%D0%BA%D0%BE%D0%B4" title="Юникод">юникода</a>, заключённое в двойные кавычки. Символы могут быть указаны с использованием <a href="/wiki/Escape-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C" class="mw-redirect" title="Escape-последовательность">escape-последовательностей</a>, начинающихся с <a href="/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D1%81%D0%B0%D1%8F_%D1%87%D0%B5%D1%80%D1%82%D0%B0" title="Обратная косая черта">обратной косой черты</a> <i>«\»</i> (поддерживаются варианты \", \\, \/, \t, \n, \r, \f и \b), или записаны шестнадцатеричным кодом в кодировке <a href="/wiki/Unicode" class="mw-redirect" title="Unicode">Unicode</a> в виде \uFFFF.</li></ul>
+<p><i>Строка</i> очень похожа на <a href="/wiki/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D0%BB_(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" title="Литерал (информатика)">литерал</a> одноимённого типа данных в языке <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>. <i>Число</i> тоже очень похоже на JavaScript-число, за исключением того, что используется только <a href="/wiki/%D0%94%D0%B5%D1%81%D1%8F%D1%82%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%B4%D1%80%D0%BE%D0%B1%D1%8C" title="Десятичная дробь">десятичный формат</a> (с точкой в качестве разделителя). Пробелы могут быть вставлены между любыми двумя синтаксическими элементами.
+</p><p>Следующий пример показывает JSON-представление данных об объекте, описывающем человека. В данных присутствуют <i>строковые</i> поля имени и фамилии, информация об адресе и массив, содержащий список телефонов. Как видно из примера, <i>значение</i> может представлять собой вложенную структуру.
+</p>
+<div class="mw-highlight mw-highlight-lang-json mw-content-ltr" dir="ltr"><pre><span></span><span class="p">{</span>
+<span class="w">   </span><span class="nt">&quot;firstName&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Иван&quot;</span><span class="p">,</span>
+<span class="w">   </span><span class="nt">&quot;lastName&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Иванов&quot;</span><span class="p">,</span>
+<span class="w">   </span><span class="nt">&quot;address&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">       </span><span class="nt">&quot;streetAddress&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Московское ш., 101, кв.101&quot;</span><span class="p">,</span>
+<span class="w">       </span><span class="nt">&quot;city&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Ленинград&quot;</span><span class="p">,</span>
+<span class="w">       </span><span class="nt">&quot;postalCode&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">101101</span>
+<span class="w">   </span><span class="p">},</span>
+<span class="w">   </span><span class="nt">&quot;phoneNumbers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">       </span><span class="s2">&quot;812 123-1234&quot;</span><span class="p">,</span>
+<span class="w">       </span><span class="s2">&quot;916 123-4567&quot;</span>
+<span class="w">   </span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+<p>В качестве значений в JSON могут быть использованы как числа, так и строки. Поэтому запись <code>"postalCode": "101101"</code> содержит строку, а <code>"postalCode": 101101</code>&#160;— уже числовое значение. Из-за <a href="/wiki/%D0%A1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B8_%D1%81%D0%BB%D0%B0%D0%B1%D0%B0%D1%8F_%D1%82%D0%B8%D0%BF%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" title="Сильная и слабая типизация">слабой типизации</a> в JavaScript и <a href="/wiki/PHP" title="PHP">PHP</a> строка может быть <a href="/wiki/%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D1%82%D0%B8%D0%BF%D0%B0" title="Приведение типа">приведена</a> к числу и не влиять на логику программы. Тем не менее, рекомендуется аккуратно обращаться с типом значения, так как JSON служит для межсистемного обмена.
+</p><p>На языке XML подобная структура выглядела бы примерно так:
+</p>
+<div class="mw-highlight mw-highlight-lang-xml mw-content-ltr" dir="ltr"><pre><span></span><span class="nt">&lt;person&gt;</span>
+<span class="w">  </span><span class="nt">&lt;firstName&gt;</span>Иван<span class="nt">&lt;/firstName&gt;</span>
+<span class="w">  </span><span class="nt">&lt;lastName&gt;</span>Иванов<span class="nt">&lt;/lastName&gt;</span>
+<span class="w">  </span><span class="nt">&lt;address&gt;</span>
+<span class="w">    </span><span class="nt">&lt;streetAddress&gt;</span>Московское<span class="w"> </span>ш.,<span class="w"> </span>101,<span class="w"> </span>кв.101<span class="nt">&lt;/streetAddress&gt;</span>
+<span class="w">    </span><span class="nt">&lt;city&gt;</span>Ленинград<span class="nt">&lt;/city&gt;</span>
+<span class="w">    </span><span class="nt">&lt;postalCode&gt;</span>101101<span class="nt">&lt;/postalCode&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/address&gt;</span>
+<span class="w">  </span><span class="nt">&lt;phoneNumbers&gt;</span>
+<span class="w">    </span><span class="nt">&lt;phoneNumber&gt;</span>812<span class="w"> </span>123-1234<span class="nt">&lt;/phoneNumber&gt;</span>
+<span class="w">    </span><span class="nt">&lt;phoneNumber&gt;</span>916<span class="w"> </span>123-4567<span class="nt">&lt;/phoneNumber&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/phoneNumbers&gt;</span>
+<span class="nt">&lt;/person&gt;</span>
+</pre></div>
+<p>или так:
+</p>
+<div class="mw-highlight mw-highlight-lang-xml mw-content-ltr" dir="ltr"><pre><span></span><span class="nt">&lt;person</span><span class="w"> </span><span class="na">firstName=</span><span class="s">&quot;Иван&quot;</span><span class="w"> </span><span class="na">lastName=</span><span class="s">&quot;Иванов&quot;</span><span class="nt">&gt;</span>
+<span class="w">  </span><span class="nt">&lt;address</span><span class="w"> </span><span class="na">streetAddress=</span><span class="s">&quot;Московское ш., 101, кв.101&quot;</span><span class="w"> </span><span class="na">city=</span><span class="s">&quot;Ленинград&quot;</span><span class="w"> </span><span class="na">postalCode=</span><span class="s">&quot;101101&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">  </span><span class="nt">&lt;phoneNumbers&gt;</span>
+<span class="w">    </span><span class="nt">&lt;phoneNumber</span><span class="w"> </span><span class="na">value=</span><span class="s">&quot;812 123-1234&quot;</span><span class="nt">/&gt;</span>
+<span class="w">    </span><span class="nt">&lt;phoneNumber</span><span class="w"> </span><span class="na">value=</span><span class="s">&quot;916 123-4567&quot;</span><span class="nt">/&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/phoneNumbers&gt;</span>
+<span class="nt">&lt;/person&gt;</span>
+</pre></div>
+<div class="mw-heading mw-heading2"><h2 id="JSON5">JSON5</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=3" title="Редактировать раздел «JSON5»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=3" title="Редактировать код раздела «JSON5»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p><b>JSON5</b>&#160;— предложенное расширение формата json в соответствии с синтаксисом ECMAScript 5, вызванное тем, что json используется не только для общения между программами, но и создаётся/редактируется вручную<sup id="cite&#95;ref-8" class="reference"><a href="#cite_note-8"><span class="cite-bracket">&#91;</span>8<span class="cite-bracket">&#93;</span></a></sup>. Файл JSON5 всегда является корректным кодом <a href="/wiki/ECMAScript" title="ECMAScript">ECMAScript</a> 5. JSON5 обратно совместим с JSON. Для некоторых языков программирования уже существуют парсеры json5<sup id="cite&#95;ref-9" class="reference"><a href="#cite_note-9"><span class="cite-bracket">&#91;</span>9<span class="cite-bracket">&#93;</span></a></sup>.
+</p><p>Некоторые нововведения:
+</p>
+<ul><li>Поддерживаются как однострочные <code>//</code>, так и многострочные <code>/* */</code> комментарии.</li>
+<li>Записи и списки могут иметь запятую после последнего элемента (удобно при копировании элементов).</li>
+<li>Ключи записей могут быть без кавычек, если они являются валидными идентификаторами ECMAScript 5.</li>
+<li>Строки могут заключаться как в одинарные, так и в двойные кавычки.</li>
+<li>Числа могут быть в шестнадцатеричном виде, начинаться или заканчиваться десятичной точкой, включать Infinity, -Infinity, NaN и -NaN, начинаться со знака +.</li></ul>
+<div class="mw-heading mw-heading2"><h2 id="Сравнение_с_YAML"><span id=".D0.A1.D1.80.D0.B0.D0.B2.D0.BD.D0.B5.D0.BD.D0.B8.D0.B5_.D1.81_YAML"></span>Сравнение с YAML</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=4" title="Редактировать раздел «Сравнение с YAML»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=4" title="Редактировать код раздела «Сравнение с YAML»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>Как функционально, так и синтаксически JSON является подмножеством языка <a href="/wiki/YAML" title="YAML">YAML</a>. В частности, спецификация YAML 1.2 указывает, что «любой файл в формате JSON является корректным файлом в формате YAML»<sup id="cite&#95;ref-10" class="reference"><a href="#cite_note-10"><span class="cite-bracket">&#91;</span>10<span class="cite-bracket">&#93;</span></a></sup>. Наиболее распространённый <a href="/wiki/%D0%9F%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3" class="mw-redirect" title="Парсинг">парсер</a> YAML способен обрабатывать и JSON<sup id="cite&#95;ref-11" class="reference"><a href="#cite_note-11"><span class="cite-bracket">&#91;</span>11<span class="cite-bracket">&#93;</span></a></sup>. Спецификация YAML до версии 1.2 не полностью покрывала JSON, в первую очередь из-за отсутствия родной поддержки <a href="/wiki/UTF-32" title="UTF-32">UTF-32</a> в YAML, а также требования пробела после разделителя-запятой; кроме того, спецификация JSON включала комментарии в стиле /* */.
+</p><p>Наиболее важным отличием YAML является набор расширений синтаксиса, которым нет аналогов в JSON:
+</p>
+<ul><li>поддержка <b>реляционных</b> данных: в YAML-документе можно ссылаться на якорь, встретившийся ранее в файле/потоке; таким образом можно выразить <a href="/wiki/%D0%A0%D0%B5%D0%BA%D1%83%D1%80%D1%81%D0%B8%D1%8F#Данные" title="Рекурсия">рекурсивные структуры</a>.</li>
+<li>поддержка <b>расширяемых</b> типов данных помимо <a href="/wiki/%D0%9F%D1%80%D0%B8%D0%BC%D0%B8%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D1%82%D0%B8%D0%BF" title="Примитивный тип">примитивов</a>: строк, чисел, логических значений и&#160;т.&#160;д.</li>
+<li>поддержка <b>блочного</b> синтаксиса с отступами; он позволяет описать <a href="/wiki/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85" title="Структура данных">структурированные данные</a> без использования лишних символов: всевозможных скобок, кавычек и&#160;т.&#160;д.</li></ul>
+<div class="mw-heading mw-heading2"><h2 id="JSON_Schema">JSON Schema</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=5" title="Редактировать раздел «JSON Schema»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=5" title="Редактировать код раздела «JSON Schema»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>JSON Schema&#160;— один из языков описания структуры JSON-документа. Использует синтаксис JSON. Базируется на концепциях <a href="/wiki/XML_Schema" class="mw-redirect" title="XML Schema">XML Schema</a>, <a href="/wiki/RELAX_NG" title="RELAX NG">RelaxNG</a>, <a href="/w/index.php?title=Kwalify&amp;action=edit&amp;redlink=1" class="new" title="Kwalify (страница отсутствует)">Kwalify</a>. JSON Schema&#160;— самоописательный язык: при его использовании для обработки данных и описания их допустимости могут использоваться одни и те же инструменты <a href="/wiki/%D0%A1%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" title="Сериализация">сериализации</a>/<a href="/wiki/%D0%94%D0%B5%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" class="mw-redirect" title="Десериализация">десериализации</a><sup id="cite&#95;ref-12" class="reference"><a href="#cite_note-12"><span class="cite-bracket">&#91;</span>12<span class="cite-bracket">&#93;</span></a></sup>.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Формат_JSON-LD_для_связанных_данных"><span id=".D0.A4.D0.BE.D1.80.D0.BC.D0.B0.D1.82_JSON-LD_.D0.B4.D0.BB.D1.8F_.D1.81.D0.B2.D1.8F.D0.B7.D0.B0.D0.BD.D0.BD.D1.8B.D1.85_.D0.B4.D0.B0.D0.BD.D0.BD.D1.8B.D1.85"></span>Формат JSON-LD для связанных данных</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=6" title="Редактировать раздел «Формат JSON-LD для связанных данных»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=6" title="Редактировать код раздела «Формат JSON-LD для связанных данных»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<div role="note" class="hatnote navigation-not-searchable ts-main"><style data-mw-deduplicate="TemplateStyles:r142002967">.mw-parser-output .ts-main a{font-weight:bold}.mw-parser-output .ts-main a.new,.mw-parser-output .ts-main a.extiw,.mw-parser-output .ts-main a.external{font-weight:normal}</style>Основная статья: <a href="/wiki/JSON-LD" title="JSON-LD">JSON-LD</a></div>
+<p>Стандарт JSON не поддерживает <a href="/wiki/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)" title="Ссылка (программирование)">ссылки</a> на объекты, но желаемого результата можно достичь при помощи дополнительных соглашений. Рекомендацией <a href="/wiki/W3C" class="mw-redirect" title="W3C">W3C</a> для связанных данных является <a href="/wiki/JSON-LD" title="JSON-LD">JSON-LD</a>, в котором использована модель данных <a href="/wiki/RDF" class="mw-redirect" title="RDF">RDF</a>. В JSON-LD к данным добавляется контекст (context), связывающий свойства объектов JSON-документа с <a href="/wiki/%D0%9E%D0%BD%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F_(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" title="Онтология (информатика)">элементами онтологий</a><sup id="cite&#95;ref-13" class="reference"><a href="#cite_note-13"><span class="cite-bracket">&#91;</span>13<span class="cite-bracket">&#93;</span></a></sup>.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Использование_JSON_в_Ajax"><span id=".D0.98.D1.81.D0.BF.D0.BE.D0.BB.D1.8C.D0.B7.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5_JSON_.D0.B2_Ajax"></span>Использование JSON в <a href="/wiki/Ajax" class="mw-redirect" title="Ajax">Ajax</a></h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=7" title="Редактировать раздел «Использование JSON в Ajax»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=7" title="Редактировать код раздела «Использование JSON в Ajax»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>Следующий пример Javascript-кода показывает, как браузер может использовать <a href="/wiki/XMLHttpRequest" title="XMLHttpRequest">XMLHttpRequest</a>, чтобы запрашивать с сервера объект в формате JSON (серверная часть программы опущена; в ней должен быть размещён код, отправляющий данные в формате JSON-строки в ответ на запросы по <code>url</code>).
+</p>
+<div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">http_request</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">XMLHttpRequest</span><span class="p">();</span>
+<span class="nx">http_request</span><span class="p">.</span><span class="nx">onreadystatechange</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kd">function</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">http_request</span><span class="p">.</span><span class="nx">readyState</span><span class="w"> </span><span class="o">!==</span><span class="w"> </span><span class="mf">4</span><span class="p">)</span>
+<span class="w">        </span><span class="k">return</span><span class="p">;</span>
+<span class="w">        </span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">http_request</span><span class="p">.</span><span class="nx">status</span><span class="w"> </span><span class="o">!==</span><span class="w"> </span><span class="mf">200</span><span class="p">)</span>
+<span class="w">        </span><span class="k">throw</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="ne">Error</span><span class="p">(</span><span class="s1">&#39;request was defeated&#39;</span><span class="p">);</span>
+<span class="w">        </span>
+<span class="w">    </span><span class="nx">do_something_with_object</span><span class="p">(</span><span class="nb">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">http_request</span><span class="p">.</span><span class="nx">responseText</span><span class="p">));</span>
+<span class="w">    </span><span class="nx">http_request</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+<span class="p">};</span>
+<span class="nx">http_request</span><span class="p">.</span><span class="nx">open</span><span class="p">(</span><span class="s2">&quot;GET&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">url</span><span class="p">,</span><span class="w"> </span><span class="kc">true</span><span class="p">);</span>
+<span class="nx">http_request</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="kc">null</span><span class="p">);</span>
+</pre></div>
+<p>Заметим, что данный пример применения <a href="/wiki/XMLHttpRequest" title="XMLHttpRequest">XMLHttpRequest</a> не поддерживает <a href="/wiki/Internet_Explorer" title="Internet Explorer">Internet Explorer</a> до версии 6 включительно, так что для них следует использовать несколько иной код. Возможности применения XMLHttpRequest ограничены из-за <a href="/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BE_%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0" title="Правило ограничения домена">правила ограничения домена</a> (same origin policy): URL-ответ на запрос должен находиться в том же DNS-домене, что и сервер, на котором находится страница, запрашивающая ответ. В качестве альтернативы применяется подход <a href="/wiki/JSONP" title="JSONP">JSONP</a>, включающий в себя использование закодированного вызова функции, передающегося между клиентом и сервером, чтобы клиент мог загружать закодированные в JSON данные со сторонних доменов, и уведомлять о завершении вызывающую сторону, хотя это приводит к некоторым рискам для безопасности и дополнительным требованиям к серверу.
+</p><p>Как вариант, в коде страницы можно использовать элементы <code>&lt;iframe&gt;</code> для асинхронного запроса JSON-данных, или просто <code>&lt;form action="url_to_cgi_script"&gt;</code>. Эти подходы были распространены до появления широкой поддержки XMLHttpRequest.
+</p><p>Также можно использовать для передачи JSON-данных динамические теги <a href="/w/index.php?title=HTML_element&amp;action=edit&amp;redlink=1" class="new" title="HTML element (страница отсутствует)"><code>&lt;script&gt;</code></a>. С помощью этого метода можно обойти <a href="/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BE_%D0%BE%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0" title="Правило ограничения домена">правило ограничения домена</a> (same origin policy), но он приводит к появлению уязвимого кода. В качестве более безопасной альтернативы было предложено использовать <a rel="nofollow" class="external text" href="http://json.org/JSONRequest.html">JSONRequest</a>.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Вопросы_безопасности"><span id=".D0.92.D0.BE.D0.BF.D1.80.D0.BE.D1.81.D1.8B_.D0.B1.D0.B5.D0.B7.D0.BE.D0.BF.D0.B0.D1.81.D0.BD.D0.BE.D1.81.D1.82.D0.B8"></span>Вопросы безопасности</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=8" title="Редактировать раздел «Вопросы безопасности»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=8" title="Редактировать код раздела «Вопросы безопасности»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>Хотя JSON предназначен для передачи данных в сериализованном виде, его синтаксис соответствует синтаксису JavaScript и это создаёт ряд проблем безопасности. Зачастую для обработки данных, полученных от внешнего источника в формате JSON, к ним применяется функция <code>eval()</code> без какой-либо предварительной проверки.
+</p>
+<div class="mw-heading mw-heading3"><h3 id="JavaScript_eval()"><span id="JavaScript_eval.28.29"></span>JavaScript <code>eval()</code></h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=9" title="Редактировать раздел «JavaScript eval()»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=9" title="Редактировать код раздела «JavaScript eval()»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>Поскольку JSON представляется синтаксически правильным фрагментом кода JavaScript, простейшим способом разбора JSON-данных в JavaScript-программе является использование встроенной в JavaScript функции <code>eval()</code>, которая предназначена для выполнения JavaScript-выражений. При этом подходе отпадает необходимость в использовании дополнительных парсеров.
+</p><p>Техника использования <code>eval()</code> делает систему уязвимой, если источник используемых JSON-данных не является <span data-interwiki-lang="en" data-interwiki-article="Trusted system"><a href="/w/index.php?title=%D0%94%D0%BE%D0%B2%D0%B5%D1%80%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B&amp;action=edit&amp;redlink=1" class="new" title="Доверенные системы (страница отсутствует)">доверенным</a></span><sup class="noprint" style="font-style:normal; font-weight:normal;"><a href="https://en.wikipedia.org/wiki/Trusted_system" class="extiw" title="en:Trusted system"><span title="Trusted system — версия статьи «Доверенные системы» на английском языке">[англ.]</span></a></sup>. В качестве таких данных может выступать вредоносный JavaScript код для атак класса <span data-interwiki-lang="en" data-interwiki-article="Code injection"><a href="/w/index.php?title=%D0%92%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%BE%D0%B4%D0%B0&amp;action=edit&amp;redlink=1" class="new" title="Внедрение кода (страница отсутствует)">Внедрение кода</a></span><sup class="noprint" style="font-style:normal; font-weight:normal;"><a href="https://en.wikipedia.org/wiki/Code_injection" class="extiw" title="en:Code injection"><span title="Code injection — версия статьи «Внедрение кода» на английском языке">[англ.]</span></a></sup>. С помощью данной уязвимости возможно осуществлять кражу данных, подделку аутентификации.
+</p><p>Была предложена новая функция <code>JSON.parse()</code>, способная обрабатывать только JSON-данные. Она была представлена в четвёртой версии стандарта <a href="/wiki/ECMAScript" title="ECMAScript">ECMAScript</a> и описана в статье «JSON: Обезжиренная альтернатива XML»<sup id="cite&#95;ref-14" class="reference"><a href="#cite_note-14"><span class="cite-bracket">&#91;</span>14<span class="cite-bracket">&#93;</span></a></sup>. В настоящее время она доступна как <a href="/wiki/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0_JavaScript" title="Библиотека JavaScript">библиотека JavaScript</a><sup id="cite&#95;ref-15" class="reference"><a href="#cite_note-15"><span class="cite-bracket">&#91;</span>15<span class="cite-bracket">&#93;</span></a></sup> и была включена в пятую редакцию ECMAScript.
+</p>
+<div class="mw-heading mw-heading3"><h3 id="Встроенный_JSON"><span id=".D0.92.D1.81.D1.82.D1.80.D0.BE.D0.B5.D0.BD.D0.BD.D1.8B.D0.B9_JSON"></span>Встроенный JSON</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=10" title="Редактировать раздел «Встроенный JSON»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=10" title="Редактировать код раздела «Встроенный JSON»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>Последние версии веб-браузеров имеют встроенную поддержку JSON и способны его обрабатывать.
+</p>
+<div class="mw-heading mw-heading3"><h3 id="Подделка_кроссдоменного_запроса"><span id=".D0.9F.D0.BE.D0.B4.D0.B4.D0.B5.D0.BB.D0.BA.D0.B0_.D0.BA.D1.80.D0.BE.D1.81.D1.81.D0.B4.D0.BE.D0.BC.D0.B5.D0.BD.D0.BD.D0.BE.D0.B3.D0.BE_.D0.B7.D0.B0.D0.BF.D1.80.D0.BE.D1.81.D0.B0"></span>Подделка кроссдоменного запроса</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=11" title="Редактировать раздел «Подделка кроссдоменного запроса»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=11" title="Редактировать код раздела «Подделка кроссдоменного запроса»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<style data-mw-deduplicate="TemplateStyles:r148513636">.mw-parser-output .ambox{align-items:center;border:1px solid var(--border-color-base,#a2a9b1);border-left:10px solid #36c;background:var(--background-color-neutral-subtle,#f8f9fa);box-sizing:border-box;display:flex;margin:0 10%}html body.mediawiki.skin-minerva .mw-parser-output .ambox{border-width:0 0 0 4px}.mw-parser-output .ambox+link+.ambox,.mw-parser-output .ambox+link+style+.ambox,.mw-parser-output .ambox+link+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+style+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+link+.ambox{margin-top:-1px}html body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px 0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output .ambox-speedy{border-left:10px solid var(--border-color-error,#b32424);background-color:var(--background-color-error-subtle,#fee7e6)}.mw-parser-output .ambox-delete{border-left:10px solid var(--border-color-error,#b32424)}.mw-parser-output .ambox-content{border-left:10px solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid var(--color-warning,#edab00)}.mw-parser-output .ambox-good{border-left:10px solid #66cc44}.mw-parser-output .ambox-discussion{border-left:10px solid #339966}.mw-parser-output .ambox-merge{border-left:10px solid #9932cc}.mw-parser-output .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em 0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px 0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px 0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .ambox .mbox-image-div{width:52px}.mw-parser-output .ambox .mbox-textsmall-div{font-size:90%}html.client-js body.skin-minerva .mw-parser-output .mbox-text-span{margin-left:23px!important}@media(max-width:1366px){.mw-parser-output .ambox{margin-left:6%;margin-right:6%}}@media(max-width:719px){.mw-parser-output .ambox{margin-left:0;margin-right:0}}</style><div class="mbox-Нет&#95;источников plainlinks metadata ambox ambox-content"><div class="mbox-image"><div class="mbox-image-div"><span typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Question_book-4.svg/60px-Question_book-4.svg.png" decoding="async" width="48" height="37" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Question_book-4.svg/120px-Question_book-4.svg.png 1.5x" data-file-width="262" data-file-height="204" /></span></span></div></div><div class="mbox-text"><div class="mbox-text-div">В разделе <b>не хватает <a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8_%D0%BD%D0%B0_%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8" title="Википедия:Ссылки на источники">ссылок на источники</a></b> (см. <a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9F%D0%BE%D0%B8%D1%81%D0%BA_%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2" title="Википедия:Поиск источников">рекомендации по поиску</a>).</div><div class="mbox-textsmall-div hide-when-compact"><span class="hide-when-compact"> Информация должна быть <a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D1%8F%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D1%8C" title="Википедия:Проверяемость">проверяема</a>, иначе она может быть удалена. Вы можете <a class="external text" href="https://ru.wikipedia.org/w/index.php?title=JSON&amp;action=edit">отредактировать</a> статью, добавив ссылки на <a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%90%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D1%82%D0%BD%D1%8B%D0%B5_%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8" title="Википедия:Авторитетные источники">авторитетные источники</a> в виде <a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D0%BD%D0%BE%D1%81%D0%BA%D0%B8" title="Википедия:Сноски">сносок</a>.</span>  <span class="mbox-date"><i>(<span class="date">22 мая 2018</span>)</i></span></div></div></div>
+<p>Непродуманное использование JSON делает сайты уязвимыми для <a href="/wiki/%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0_%D0%BC%D0%B5%D0%B6%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D1%8B%D1%85_%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2" class="mw-redirect" title="Подделка межсайтовых запросов">подделки межсайтовых запросов</a> (CSRF или XSRF)<sup id="cite&#95;ref-16" class="reference"><a href="#cite_note-16"><span class="cite-bracket">&#91;</span>16<span class="cite-bracket">&#93;</span></a></sup>. Поскольку тег <a href="/wiki/%D0%AD%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_HTML" title="Элементы HTML"><code>&lt;script&gt;</code></a> допускает использование источника, не принадлежащего к тому же домену, что и использующий ресурс, это позволяет выполнять код под видом данных, представленных в формате JSON, в контексте произвольной страницы, что делает возможным <a href="/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D1%80%D0%BE%D0%BC%D0%B5%D1%82%D0%B0%D1%86%D0%B8%D1%8F_(%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F)" title="Компрометация (криптография)">компрометацию</a> паролей или другой конфиденциальной информации пользователей, прошедших авторизацию на другом сайте.
+</p><p>Это представляется проблемой только в случае содержания в JSON-данных конфиденциальной информации, которая может быть компрометирована третьей стороной и если сервер рассчитывает на <span data-interwiki-lang="en" data-interwiki-article="Same origin policy"><a href="/w/index.php?title=%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0_%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B0&amp;action=edit&amp;redlink=1" class="new" title="Политика одного источника (страница отсутствует)">политику одного источника</a></span><sup class="noprint" style="font-style:normal; font-weight:normal;"><a href="https://en.wikipedia.org/wiki/Same_origin_policy" class="extiw" title="en:Same origin policy"><span title="Same origin policy — версия статьи «Политика одного источника» на английском языке">[англ.]</span></a></sup>, блокируя доступ к данным при обнаружении внешнего запроса. Это не является проблемой, если сервер определяет допустимость запроса, предоставляя данные только в случае его корректности. <a href="/wiki/HTTP_cookie" class="mw-redirect" title="HTTP cookie">HTTP cookie</a> нельзя использовать для определения этого. Исключительное использование HTTP cookie используется <a href="/wiki/%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0_%D0%BC%D0%B5%D0%B6%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D1%8B%D1%85_%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2" class="mw-redirect" title="Подделка межсайтовых запросов">подделкой межсайтовых запросов</a>.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="JSONP_и_JSONPP"><span id="JSONP_.D0.B8_JSONPP"></span>JSONP и JSONPP</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=12" title="Редактировать раздел «JSONP и JSONPP»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=12" title="Редактировать код раздела «JSONP и JSONPP»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p><a href="/wiki/JSONP" title="JSONP">JSONP</a> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a>&#160;<span lang="en" style="font-style:italic;">JSON Padding</span>&#160;— «JSON с подкладкой») является расширением JSON, когда имя функции обратного вызова указывается в качестве входного аргумента.
+</p><p>В основу технологии положен тот факт, что политика безопасности браузера не запрещает использовать тег <code>&lt;script type="text/javascript" src="…"&gt;&lt;/script&gt;</code> для обращения к серверам, отличным от сервера, с которого произошла загрузка страницы.
+</p><p>Без использования технологии JSONP (то есть используя просто JSON кодирование данных) сервер может вернуть только данные. Например, так:
+</p>
+<div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="p">{</span><span class="s2">&quot;paper&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A4&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;count&quot;</span><span class="o">:</span><span class="w"> </span><span class="mf">5</span><span class="p">}</span>
+</pre></div>
+<p>Однако это только данные, и они не могут влиять на браузер.
+</p><p>Используя технику JSONP, стороннему серверу передаётся в строке вызова (GET) имя callback функции:
+</p>
+<pre>&lt;script type="text/javascript" src="http://example.com/getjson?jsonp=parseResponse"&gt;&lt;/script&gt;</pre>
+<p>Здесь параметр jsonp содержит имя callback функции parseResponse.
+</p><p>Теперь посторонний сервер example.com может вернуть следующий код:
+</p>
+<div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="nx">parseResponse</span><span class="p">({</span><span class="s2">&quot;paper&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A4&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;count&quot;</span><span class="o">:</span><span class="w"> </span><span class="mf">5</span><span class="p">})</span>
+</pre></div>
+<p>Теперь код вызывает javascript-функцию первого домена.
+</p><p>Первоначально идея была предложена в блоге MacPython в 2005 году<sup id="cite&#95;ref-17" class="reference"><a href="#cite_note-17"><span class="cite-bracket">&#91;</span>17<span class="cite-bracket">&#93;</span></a></sup> и в настоящее время используется многими <a href="/wiki/Web_2.0" class="mw-redirect" title="Web 2.0">Web 2.0</a> приложениями, такими, как <a href="/wiki/Dojo" title="Dojo">Dojo Toolkit</a> Applications, Google Toolkit Applications [<a rel="nofollow" class="external free" href="https://www.webcitation.org/6Djo88laj?url=http://www.gwtapps.com/?p=42%5d">https://www.webcitation.org/6Djo88laj?url=http://www.gwtapps.com/?p=42%5d</a> и zanox Web Services. Дальнейшие расширения этого протокола были предложены с учётом ввода дополнительных аргументов, как, например, в случае JSONPP<sup id="cite&#95;ref-18" class="reference"><a href="#cite_note-18"><span class="cite-bracket">&#91;</span>18<span class="cite-bracket">&#93;</span></a></sup> при поддержке <a href="/w/index.php?title=S3DB&amp;action=edit&amp;redlink=1" class="new" title="S3DB (страница отсутствует)">S3DB</a> веб-сервисов.
+</p><p>Поскольку JSONP использует скрипт теги, вызовы по сути открыты миру. По этой причине JSONP может быть неуместными для хранения конфиденциальных данных<sup id="cite&#95;ref-RIAspot&#95;19-0" class="reference"><a href="#cite_note-RIAspot-19"><span class="cite-bracket">&#91;</span>19<span class="cite-bracket">&#93;</span></a></sup>.
+</p><p>Включение скриптовых тегов от удалённых сайтов позволяет им передать любой контент на сайте. Если удалённый сайт имеет уязвимости, которые позволяют выполнить Javascript инъекции, то исходный сайт также может быть затронут ими.
+</p><p><b>JSONPP</b> (<a href="/wiki/%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" title="Английский язык">англ.</a>&#160;<span lang="en" style="font-style:italic;">parameterized JSON with padding</span>&#160;— «параметризованный JSON с подкладкой»)&#160;— развитие идеи JSONP.
+</p><p>JSONPP включает в себя URL источника, имя функции, которая будет обрабатывать JSON данные, строка для eval после получения данных и строка для eval после окончания обработки данных:
+</p>
+<div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="nx">JSON_call</span><span class="p">(</span><span class="nx">SRC</span><span class="p">,</span><span class="nx">JSONP</span><span class="p">,</span><span class="nx">JSONPP</span><span class="p">,</span><span class="nx">ONLOAD</span><span class="p">);</span>
+</pre></div><p> в итоге оборачивается
+</p><div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="nx">ans</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">JSONP</span><span class="p">(</span><span class="nx">SRC</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="nb">eval</span><span class="p">(</span><span class="nx">JSONPP</span><span class="p">(</span><span class="nx">ans</span><span class="p">));</span>
+<span class="w">    </span><span class="nb">eval</span><span class="p">(</span><span class="nx">ONLOAD</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+<p>Вообще, для самой идеи JSONPP не принципиально количество параметров. Достаточно SRC, JSONP, JSONPP (и их обработка на стороне сервера, а затем клиента) для того, чтобы это был JSONPP.
+</p><p>Рассмотрим на примере работы с сервисом S3DB.
+</p>
+<div class="mw-highlight mw-highlight-lang-javascript mw-content-ltr" dir="ltr"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">s3db_jsonpp_call</span><span class="p">(</span><span class="nx">src</span><span class="p">,</span><span class="w"> </span><span class="nx">next_eval</span><span class="p">){</span>
+<span class="w">	</span><span class="kd">var</span><span class="w"> </span><span class="nx">call</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;call_&quot;</span><span class="o">+</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">().</span><span class="nx">toString</span><span class="p">().</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\./g</span><span class="p">,</span><span class="s2">&quot;&quot;</span><span class="p">);</span>
+<span class="w">	</span><span class="kd">var</span><span class="w"> </span><span class="nx">headID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s2">&quot;head&quot;</span><span class="p">)[</span><span class="mf">0</span><span class="p">];</span>
+<span class="w">	</span><span class="kd">var</span><span class="w"> </span><span class="nx">script</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;script&#39;</span><span class="p">);</span>
+<span class="w">	</span><span class="nx">script</span><span class="p">.</span><span class="nx">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">call</span><span class="p">;</span>
+<span class="w">	</span><span class="nx">script</span><span class="p">.</span><span class="nx">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;text/javascript&#39;</span><span class="p">;</span>
+<span class="w">	</span><span class="c1">// using padded, parameterized json</span>
+<span class="w">	</span><span class="nx">src</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">src</span><span class="o">+</span><span class="s2">&quot;&amp;format=json&amp;jsonp=s3db_jsonpp&amp;jsonpp=&quot;</span><span class="o">+</span><span class="nx">next_eval</span><span class="o">+</span><span class="s2">&quot;&amp;onload=remove_element_by_id(&#39;&quot;</span><span class="o">+</span><span class="nx">script</span><span class="p">.</span><span class="nx">id</span><span class="o">+</span><span class="s2">&quot;&#39;)&quot;</span><span class="p">;</span>
+<span class="w">	</span><span class="nx">script</span><span class="p">.</span><span class="nx">src</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">src</span><span class="p">;</span>
+<span class="w">	</span><span class="nx">headID</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">script</span><span class="p">);</span><span class="w"> </span><span class="c1">// retrieve answer</span>
+<span class="p">}</span>
+<span class="kd">function</span><span class="w"> </span><span class="nx">s3db_jsonpp</span><span class="p">(</span><span class="nx">ans</span><span class="p">,</span><span class="w"> </span><span class="nx">jsonpp</span><span class="p">){</span>
+<span class="w">	</span><span class="nb">eval</span><span class="p">(</span><span class="nx">jsonpp</span><span class="p">);</span>
+<span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="nx">ans</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="kd">function</span><span class="w"> </span><span class="nx">remove_element_by_id</span><span class="p">(</span><span class="nx">id</span><span class="p">){</span>
+<span class="w">	</span><span class="kd">var</span><span class="w"> </span><span class="nx">e</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="nx">id</span><span class="p">);</span>
+<span class="w">	</span><span class="nx">e</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">removeChild</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+<span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+<p>В примере функция <code>s3db_jsonpp_call()</code> создаёт в DOM в части head элемент script, src которого соответствует вызову JSONPP.
+</p><p>После получения ответа от сервера будет вызвана <code>s3db_jsonpp()</code>&#160;— она передана в параметрах вызова, как это должно быть по правилам JSONP.
+</p><p>Внутри <code>s3db_jsonpp()</code> сработает <code>eval(jsonpp)</code>, и произойдёт возврат значения ans.
+</p><p>Вызов eval(onload) приводит к выполнению <code>remove_element_by_id()</code> с id созданного скрипта в head и в итоге к его удалению, ведь он уже всё равно не будет использоваться, поскольку id в примере было сгенерировано случайным образом в самом начале функции <code>s3db_jsonpp_call()</code>. Этот вызов в ответе сервера.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="JSONB">JSONB</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=13" title="Редактировать раздел «JSONB»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=13" title="Редактировать код раздела «JSONB»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>JSONB&#160;— бинарное расширение JSON, внедрённое в СУБД <a href="/wiki/PostgreSQL" title="PostgreSQL">PostgreSQL</a> в версии 9.4.18. Фактически, JSONB является бинарным представлением JSON<sup id="cite&#95;ref-20" class="reference"><a href="#cite_note-20"><span class="cite-bracket">&#91;</span>20<span class="cite-bracket">&#93;</span></a></sup>, с тем различием, что в хранимых строках пробелы удаляются, сортировка объектов не сохраняется и сохраняется только последнее значение для ключей-дубликатов<sup id="cite&#95;ref-21" class="reference"><a href="#cite_note-21"><span class="cite-bracket">&#91;</span>21<span class="cite-bracket">&#93;</span></a></sup>.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="См._также"><span id=".D0.A1.D0.BC._.D1.82.D0.B0.D0.BA.D0.B6.D0.B5"></span>См. также</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=14" title="Редактировать раздел «См. также»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=14" title="Редактировать код раздела «См. также»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<ul><li><a href="/wiki/BSON" title="BSON">BSON</a></li>
+<li><a href="/wiki/YAML" title="YAML">YAML</a></li>
+<li><a href="/wiki/JSON-LD" title="JSON-LD">JSON-LD</a></li>
+<li><a href="/wiki/JSONP" title="JSONP">JSONP</a></li></ul>
+<div class="mw-heading mw-heading2"><h2 id="Примечания"><span id=".D0.9F.D1.80.D0.B8.D0.BC.D0.B5.D1.87.D0.B0.D0.BD.D0.B8.D1.8F"></span>Примечания</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=15" title="Редактировать раздел «Примечания»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=15" title="Редактировать код раздела «Примечания»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<div class="reflist columns" style="list-style-type: decimal;">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite&#95;note-&#95;70357e99dab3e19f-1"><span class="mw-cite-backlink"><a href="#cite_ref-_70357e99dab3e19f_1-0">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.file-extension.info/format/json">https://www.file-extension.info/format/json</a><span class="wef&#95;low&#95;priority&#95;links"></span></span>
+</li>
+<li id="cite&#95;note-&#95;74633f2fcf22fde7-2"><span class="mw-cite-backlink"><a href="#cite_ref-_74633f2fcf22fde7_2-0">↑</a></span> <span class="reference-text"><span class="wikidata&#95;cite citetype&#95;Q212971" data-entity-id="Q47459805"><i class="wef&#95;low&#95;priority&#95;links">Crockford&#160;D.</i> <a rel="nofollow" class="external text" href="https://tools.ietf.org/html/rfc4627">The application/json Media Type for JavaScript Object Notation (JSON)</a>&#160;<span class="ref-info" title="на английском языке" style="cursor:help;">(англ.)</span><span class="wef&#95;low&#95;priority&#95;links"> — <a href="/wiki/%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%B2%D0%B5%D1%82_%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D0%B0" title="Инженерный совет Интернета">IETF</a>, 2006. — 10&#160;p. — <a rel="nofollow" class="external text" href="https://dx.doi.org/10.17487/RFC4627">doi:10.17487/RFC4627</a></span></span></span>
+</li>
+<li id="cite&#95;note-&#95;35b7757617abcf1f-3"><span class="mw-cite-backlink"><a href="#cite_ref-_35b7757617abcf1f_3-0">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.iana.org/assignments/media-types/application/json">https://www.iana.org/assignments/media-types/application/json</a><span class="wef&#95;low&#95;priority&#95;links"></span></span>
+</li>
+<li id="cite&#95;note-Pronunciation-4"><span class="mw-cite-backlink"><a href="#cite_ref-Pronunciation_4-0">↑</a></span> <span class="reference-text"><span class="citation"><span lang="und"><a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=hQVTIJBZook&amp;t=2405">Doug Crockford "Google Tech Talks: JavaScript: The Good Parts"</a></span><span class="hidden-ref" style="display:none;">&#160;</span>&#32;(7 февраля 2009).&#32;Дата обращения: 28 сентября 2017.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20170729144422/https://www.youtube.com/watch?v=hQVTIJBZook&amp;t=2405">Архивировано</a> 29 июля 2017 года.</span></span>
+</li>
+<li id="cite&#95;note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text"><span class="citation"><span lang="und"><a rel="nofollow" class="external text" href="https://www.tbray.org/ongoing/When/201x/2014/03/05/RFC7159-JSON">JSON Redux AKA RFC7159</a></span><span class="hidden-ref" style="display:none;">&#160;</span>.&#32;Дата обращения: 12 сентября 2014.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20140702215852/https://www.tbray.org/ongoing/When/201x/2014/03/05/RFC7159-JSON">Архивировано</a> 2 июля 2014 года.</span></span>
+</li>
+<li id="cite&#95;note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text"><span class="citation"><span lang="und"><a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc8259#section-8.1">RFC 8259, раздел 8.1 "String and Character Issues / Character Encoding"</a></span><span class="hidden-ref" style="display:none;">&#160;</span>.&#32;Дата обращения: 10 апреля 2024.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20240410012307/https://datatracker.ietf.org/doc/html/rfc8259#section-8.1">Архивировано</a> 10 апреля 2024 года.</span></span>
+</li>
+<li id="cite&#95;note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7">↑</a></span> <span class="reference-text"><span class="citation"><span lang="und"><a rel="nofollow" class="external text" href="http://jsonrpc.org/historical/json-rpc-1-1-alt.html#service-procedure-and-parameter-names">JSON-RPC 1.1 Alt: Service, Procedure and Parameter Names</a></span><span class="hidden-ref" style="display:none;">&#160;</span>.&#32;Дата обращения: 28 апреля 2016.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20160309023417/http://jsonrpc.org/historical/json-rpc-1-1-alt.html#service-procedure-and-parameter-names">Архивировано</a> 9 марта 2016 года.</span></span>
+</li>
+<li id="cite&#95;note-8"><span class="mw-cite-backlink"><a href="#cite_ref-8">↑</a></span> <span class="reference-text"><span class="citation"><span lang="und"><a rel="nofollow" class="external text" href="http://json5.org/">JSON5 by aseemk</a></span><span class="hidden-ref" style="display:none;">&#160;</span>.&#32;Дата обращения: 26 ноября 2015.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20151211231443/http://json5.org/">Архивировано</a> 11 декабря 2015 года.</span></span>
+</li>
+<li id="cite&#95;note-9"><span class="mw-cite-backlink"><a href="#cite_ref-9">↑</a></span> <span class="reference-text"><span class="citation"><span lang="und"><a rel="nofollow" class="external text" href="https://github.com/json5/json5/wiki/In-The-Wild">In The Wild · json5/json5 Wiki · GitHub</a></span><span class="hidden-ref" style="display:none;">&#160;</span>.&#32;Дата обращения: 27 января 2017.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20201205050150/https://github.com/json5/json5/wiki/In-The-Wild">Архивировано</a> 5 декабря 2020 года.</span></span>
+</li>
+<li id="cite&#95;note-10"><span class="mw-cite-backlink"><a href="#cite_ref-10">↑</a></span> <span class="reference-text"><span class="citation"><span lang="en"><a rel="nofollow" class="external text" href="http://yaml.org/spec/1.2/#id2560236">YAML Ain’t Markup Language (YAML™) Version 1.2</a></span>&#160;<span class="ref-info" title="на английском языке" style="cursor:help;">(англ.)</span>.&#160;— Working Draft 2008-05-11.&#32;Дата обращения: 24 сентября 2009.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20080516232502/http://yaml.org/spec/1.2/#id2560236">Архивировано</a> 16 мая 2008 года.</span></span>
+</li>
+<li id="cite&#95;note-11"><span class="mw-cite-backlink"><a href="#cite_ref-11">↑</a></span> <span class="reference-text"><span class="citation"><span lang="und"><a rel="nofollow" class="external text" href="http://viewsourcecode.org/why/redhanded/inspect/yamlIsJson.html">YAML is JSON</a></span><span class="hidden-ref" style="display:none;">&#160;</span>.&#32;RedHanded&#32;(7 апреля 2005).&#32;Дата обращения: 25 сентября 2012.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20121207062417/http://viewsourcecode.org/why/redhanded/inspect/yamlIsJson.html">Архивировано</a> 7 декабря 2012 года.</span>.</span>
+</li>
+<li id="cite&#95;note-12"><span class="mw-cite-backlink"><a href="#cite_ref-12">↑</a></span> <span class="reference-text"><span class="citation"><i>Json.Com.</i>&#32;<span lang="en"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20080514105937/http://www.json.com/json-schema-proposal/">JSON Schema Proposal</a></span>&#160;<span class="ref-info" title="на английском языке" style="cursor:help;">(англ.)</span>.&#32;Архивировано из <a rel="nofollow" class="external text" href="http://www.json.com/json-schema-proposal/">оригинала</a> 14 мая 2008 года.</span></span>
+</li>
+<li id="cite&#95;note-13"><span class="mw-cite-backlink"><a href="#cite_ref-13">↑</a></span> <span class="reference-text"><span class="citation"><span lang="und"><a rel="nofollow" class="external text" href="http://json-ld.org/spec/latest/json-ld-syntax/">JSON-LD Syntax 1.0</a></span><span class="hidden-ref" style="display:none;">&#160;</span>&#32;(27 декабря 2011).&#32;Дата обращения: 30 декабря 2011.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20120112090803/http://json-ld.org/spec/latest/json-ld-syntax/">Архивировано</a> 12 января 2012 года.</span></span>
+</li>
+<li id="cite&#95;note-14"><span class="mw-cite-backlink"><a href="#cite_ref-14">↑</a></span> <span class="reference-text"><span class="citation"><span lang="en"><a rel="nofollow" class="external text" href="http://www.json.org/fatfree.html">JSON: Обезжиренная альтернатива XML</a></span>&#160;<span class="ref-info" title="на английском языке" style="cursor:help;">(англ.)</span>.&#32;<a rel="nofollow" class="external text" href="https://www.webcitation.org/65OHt7Ehp?url=http://www.json.org/fatfree.html">Архивировано</a> 12 февраля 2012 года.</span></span>
+</li>
+<li id="cite&#95;note-15"><span class="mw-cite-backlink"><a href="#cite_ref-15">↑</a></span> <span class="reference-text"><span class="citation"><span lang="en"><a rel="nofollow" class="external text" href="http://www.JSON.org/json2.js">json2.js</a></span>&#160;<span class="ref-info" title="на английском языке" style="cursor:help;">(англ.)</span>.&#32;Дата обращения: 24 сентября 2009.&#32;<a rel="nofollow" class="external text" href="https://www.webcitation.org/65OHtd8Qw?url=http://www.json.org/json2.js">Архивировано</a> 12 февраля 2012 года.</span></span>
+</li>
+<li id="cite&#95;note-16"><span class="mw-cite-backlink"><a href="#cite_ref-16">↑</a></span> <span class="reference-text"><span class="citation"><i>Джереми Гроссмэн.</i>&#32;<span lang="en"><a rel="nofollow" class="external text" href="http://jeremiahgrossman.blogspot.com/2006/01/advanced-web-attack-techniques-using.html">Продвинутые техники атак на веб-приложения, использующие GMail</a></span>&#160;<span class="ref-info" title="на английском языке" style="cursor:help;">(англ.)</span>.&#32;WhiteHat Security.&#32;Дата обращения: 23 сентября 2009.&#32;<a rel="nofollow" class="external text" href="https://www.webcitation.org/65OHyb8Xy?url=http://jeremiahgrossman.blogspot.com/2006/01/advanced-web-attack-techniques-using.html">Архивировано</a> 12 февраля 2012 года.</span></span>
+</li>
+<li id="cite&#95;note-17"><span class="mw-cite-backlink"><a href="#cite_ref-17">↑</a></span> <span class="reference-text"><span class="citation"><span lang="und"><a rel="nofollow" class="external text" href="http://bob.pythonmac.org/archives/2005/12/05/remote-json-jsonp/">from __future__ import *&#160;» Remote JSON - JSONP</a></span><span class="hidden-ref" style="display:none;">&#160;</span>.&#32;Bob.pythonmac.org.&#32;Дата обращения: 8 сентября 2008.&#32;<a rel="nofollow" class="external text" href="https://www.webcitation.org/65OHzF7n5?url=http://bob.pythonmac.org/archives/2005/12/05/remote-json-jsonp/">Архивировано</a> 12 февраля 2012 года.</span></span>
+</li>
+<li id="cite&#95;note-18"><span class="mw-cite-backlink"><a href="#cite_ref-18">↑</a></span> <span class="reference-text"><span class="citation"><i>Almeida, Jonas.</i>&#32;<a rel="nofollow" class="external text" href="https://sites.google.com/a/s3db.org/s3db/documentation/mis/json-jsonp-jsonpp">JSON, JSONP, JSONPP?</a>.&#160;— S3DB, 2008.&#160;— 11 июня.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20170215022544/https://sites.google.com/a/s3db.org/s3db/documentation/mis/json-jsonp-jsonpp">Архивировано</a> 15&#160;февраля 2017&#160;года.</span></span>
+</li>
+<li id="cite&#95;note-RIAspot-19"><span class="mw-cite-backlink"><a href="#cite_ref-RIAspot_19-0">↑</a></span> <span class="reference-text"><span class="citation"><i>RIAspot.</i>&#32;<span lang="und"><a rel="nofollow" class="external text" href="http://www.riaspot.com/blogs/entry/JSONP-for-Cross-Site-XHR">JSON P for Cross Site XHR</a></span><span class="hidden-ref" style="display:none;">&#160;</span>.&#32;<a rel="nofollow" class="external text" href="https://web.archive.org/web/20081205002754/http://www.riaspot.com/blogs/entry/JSONP-for-Cross-Site-XHR">Архивировано</a> 5 декабря 2008 года.</span></span>
+</li>
+<li id="cite&#95;note-20"><span class="mw-cite-backlink"><a href="#cite_ref-20">↑</a></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r150646110">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"«""»""„""“"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a::after,.mw-parser-output .id-lock-limited a::after,.mw-parser-output .id-lock-registration a::after,.mw-parser-output .id-lock-subscription a::after,.mw-parser-output .cs1-ws-icon a::after{content:"";width:1.1em;height:1.1em;display:inline-block;vertical-align:middle;background-position:center;background-repeat:no-repeat;background-size:contain}.mw-parser-output .id-lock-free.id-lock-free a::after{background-image:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")}.mw-parser-output .id-lock-limited.id-lock-limited a::after,.mw-parser-output .id-lock-registration.id-lock-registration a::after{background-image:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")}.mw-parser-output .id-lock-subscription.id-lock-subscription a::after{background-image:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")}.mw-parser-output .cs1-ws-icon a::after{background-image:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#d33)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#d33)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}html.skin-theme-clientpref-night .mw-parser-output .id-lock-free a::after,html.skin-theme-clientpref-night .mw-parser-output .id-lock-limited a::after,html.skin-theme-clientpref-night .mw-parser-output .id-lock-registration a::after,html.skin-theme-clientpref-night .mw-parser-output .id-lock-subscription a::after{filter:invert(1)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}html.skin-theme-clientpref-os .mw-parser-output .id-lock-free a::after,html.skin-theme-clientpref-os .mw-parser-output .id-lock-limited a::after,html.skin-theme-clientpref-os .mw-parser-output .id-lock-registration a::after,html.skin-theme-clientpref-os .mw-parser-output .id-lock-subscription a::after{filter:invert(1)hue-rotate(180deg)}}</style><cite class="citation news cs1"><a rel="nofollow" class="external text" href="https://habr.com/post/306602/">Когда использовать неструктурированные типы данных в PostgreSQL? Сравнение Hstore vs. JSON vs. JSONB</a>. 29 июля 2016. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20180704035230/https://habr.com/post/306602/">Архивировано</a> 4 июля 2018<span class="reference-accessdate">. Дата обращения: 4 июля 2018</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=%D0%9A%D0%BE%D0%B3%D0%B4%D0%B0+%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+%D0%BD%D0%B5%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5+%D1%82%D0%B8%D0%BF%D1%8B+%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85+%D0%B2+PostgreSQL%3F+%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5+Hstore+vs.+JSON+vs.+JSONB&amp;rft.date=2016-07-29&amp;rft&#95;id=https%3A%2F%2Fhabr.com%2Fpost%2F306602%2F&amp;rfr&#95;id=info%3Asid%2Fru.wikipedia.org%3AJSON" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-21"><span class="mw-cite-backlink"><a href="#cite_ref-21">↑</a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r150646110" /><cite class="citation news cs1"><a rel="nofollow" class="external text" href="https://habr.com/post/282764/">Чем PostgreSQL лучше других SQL баз данных с открытым исходным кодом. Часть 1</a>. 29 апреля 2016. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20180704035529/https://habr.com/post/282764/">Архивировано</a> 4 июля 2018<span class="reference-accessdate">. Дата обращения: 4 июля 2018</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=%D0%A7%D0%B5%D0%BC+PostgreSQL+%D0%BB%D1%83%D1%87%D1%88%D0%B5+%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85+SQL+%D0%B1%D0%B0%D0%B7+%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85+%D1%81+%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC+%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%BC+%D0%BA%D0%BE%D0%B4%D0%BE%D0%BC.+%D0%A7%D0%B0%D1%81%D1%82%D1%8C+1&amp;rft.date=2016-04-29&amp;rft&#95;id=https%3A%2F%2Fhabr.com%2Fpost%2F282764%2F&amp;rfr&#95;id=info%3Asid%2Fru.wikipedia.org%3AJSON" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<div class="mw-heading mw-heading2"><h2 id="Ссылки"><span id=".D0.A1.D1.81.D1.8B.D0.BB.D0.BA.D0.B8"></span>Ссылки</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=JSON&amp;veaction=edit&amp;section=16" title="Редактировать раздел «Ссылки»" class="mw-editsection-visualeditor"><span>править</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=JSON&amp;action=edit&amp;section=16" title="Редактировать код раздела «Ссылки»"><span>править код</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<ul><li><a rel="nofollow" class="external text" href="http://json.org/json-ru.html">Официальная домашняя страница формата на русском языке</a></li>
+<li><a rel="nofollow" class="external text" href="http://json-rpc.org/">json-rpc.org</a> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20141229142012/http://json-rpc.org/">Архивная копия</a> от 29 декабря 2014 на <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a>&#160;<span class="ref-info" title="на английском языке" style="cursor:help;">(англ.)</span></li>
+<li><a rel="nofollow" class="external text" href="http://learn.javascript.ru/json">Глава о JSON из онлайн-учебника JavaScript</a></li>
+<li><a rel="nofollow" class="external text" href="https://skalolaskovy.ru/analytics/65-system-analytics/591-comments-in-json">Комментарии в JSON (статья)</a>&#160;<span class="ref-info" title="на русском языке" style="cursor:help;">(рус.)</span></li></ul>
+<div role="navigation" class="navbox" aria-labelledby="Языки&#95;разметки&#95;документов" data-name="Языки разметки документов"><table class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="colgroup" class="navbox-title" colspan="2"><span class="navbox-gear" style="float:left;text-align:left;width:5em;margin-right:0.5em"><span class="noprint skin-invert-image" typeof="mw:File"><a href="/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:%D0%AF%D0%B7%D1%8B%D0%BA%D0%B8_%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8_%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2" title="Перейти к шаблону «Языки разметки документов»"><img alt="Перейти к шаблону «Языки разметки документов»" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wikipedia_interwiki_section_gear_icon.svg/20px-Wikipedia_interwiki_section_gear_icon.svg.png" decoding="async" width="14" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wikipedia_interwiki_section_gear_icon.svg/40px-Wikipedia_interwiki_section_gear_icon.svg.png 1.5x" data-file-width="14" data-file-height="14" /></a></span></span><div id="Языки&#95;разметки&#95;документов" style="font-size:114%;margin:0 5em"><a href="/wiki/%D0%AF%D0%B7%D1%8B%D0%BA_%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8" title="Язык разметки">Языки разметки документов</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1px">Офисные<br /> документы</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/w/index.php?title=Compound_Document_Format&amp;action=edit&amp;redlink=1" class="new" title="Compound Document Format (страница отсутствует)">Compound Document Format</a></li>
+<li><a href="/wiki/Office_Open_XML" title="Office Open XML">OOXML</a> (<a href="/w/index.php?title=SpreadsheetML&amp;action=edit&amp;redlink=1" class="new" title="SpreadsheetML (страница отсутствует)">SpreadsheetML</a>, <a href="/w/index.php?title=PresentationML&amp;action=edit&amp;redlink=1" class="new" title="PresentationML (страница отсутствует)">PresentationML</a>, <a href="/w/index.php?title=WordprocessingML&amp;action=edit&amp;redlink=1" class="new" title="WordprocessingML (страница отсутствует)">WordprocessingML</a>)</li>
+<li><a href="/wiki/OpenDocument" title="OpenDocument">ODF</a></li>
+<li><a href="/wiki/Uniform_Office_Format" title="Uniform Office Format">UOF</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1px">Общеизвестные</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/CSV" title="CSV">CSV</a></li>
+<li><a href="/wiki/HTML" title="HTML">HTML</a></li>
+<li><a href="/wiki/XML" title="XML">XML</a></li>
+<li><a href="/wiki/XHTML" title="XHTML">XHTML</a></li>
+<li><a href="/wiki/MathML" title="MathML">MathML</a></li>
+<li><a href="/wiki/Rich_Text_Format" title="Rich Text Format">RTF</a></li>
+<li><a href="/wiki/TeX" title="TeX">TeX</a></li>
+<li><a href="/wiki/LaTeX" title="LaTeX">LaTeX</a></li>
+<li><a href="/wiki/Markdown" title="Markdown">Markdown</a></li>
+<li><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8-%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B0" title="Вики-разметка">Вики-разметка</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1px">Менее<br /> известные</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/AsciiDoc" title="AsciiDoc">AsciiDoc</a></li>
+<li><a href="/wiki/Chemical_Markup_Language" title="Chemical Markup Language">CML</a></li>
+<li><a href="/wiki/CHTML" title="CHTML">C-HTML</a></li>
+<li><a href="/wiki/ConTeXt" title="ConTeXt">ConTeXt</a></li>
+<li><a href="/w/index.php?title=Crossmark&amp;action=edit&amp;redlink=1" class="new" title="Crossmark (страница отсутствует)">Crossmark</a></li>
+<li><a href="/wiki/DITA" title="DITA">DITA</a></li>
+<li><a href="/wiki/DocBook" title="DocBook">DocBook</a></li>
+<li><a href="/w/index.php?title=ELML&amp;action=edit&amp;redlink=1" class="new" title="ELML (страница отсутствует)">eLML</a></li>
+<li><a href="/w/index.php?title=Encoded_Archival_Description&amp;action=edit&amp;redlink=1" class="new" title="Encoded Archival Description (страница отсутствует)">EAD</a></li>
+<li><a href="/w/index.php?title=Enriched_text&amp;action=edit&amp;redlink=1" class="new" title="Enriched text (страница отсутствует)">Enriched text</a></li>
+<li><a href="/w/index.php?title=FHTML&amp;action=edit&amp;redlink=1" class="new" title="FHTML (страница отсутствует)">FHTML</a></li>
+<li><a href="/w/index.php?title=IBM_Generalized_Markup_Language&amp;action=edit&amp;redlink=1" class="new" title="IBM Generalized Markup Language (страница отсутствует)">GML</a></li>
+<li><a href="/w/index.php?title=GuideML&amp;action=edit&amp;redlink=1" class="new" title="GuideML (страница отсутствует)">GuideML</a></li>
+<li><a href="/w/index.php?title=Handheld_Device_Markup_Language&amp;action=edit&amp;redlink=1" class="new" title="Handheld Device Markup Language (страница отсутствует)">HDML</a></li>
+<li><a href="/w/index.php?title=HyTime&amp;action=edit&amp;redlink=1" class="new" title="HyTime (страница отсутствует)">HyTime</a></li>
+<li><a href="/w/index.php?title=HyperTeX&amp;action=edit&amp;redlink=1" class="new" title="HyperTeX (страница отсутствует)">HyperTeX</a></li>
+<li><a href="/w/index.php?title=Information_Presentation_Facility&amp;action=edit&amp;redlink=1" class="new" title="Information Presentation Facility (страница отсутствует)">IPF</a></li>
+<li><a href="/wiki/FictionBook" title="FictionBook">FictionBook</a></li>
+<li><a href="/wiki/LilyPond" title="LilyPond">LilyPond</a></li>
+<li><a href="/w/index.php?title=LinuxDoc&amp;action=edit&amp;redlink=1" class="new" title="LinuxDoc (страница отсутствует)">LinuxDoc</a></li>
+<li><a href="/w/index.php?title=Lout_(%D0%9F%D0%9E)&amp;action=edit&amp;redlink=1" class="new" title="Lout (ПО) (страница отсутствует)">Lout</a></li>
+<li><a href="/w/index.php?title=Maker_Interchange_Format&amp;action=edit&amp;redlink=1" class="new" title="Maker Interchange Format (страница отсутствует)">MIF</a></li>
+<li><a href="/w/index.php?title=Microsoft_Assistance_Markup_Language&amp;action=edit&amp;redlink=1" class="new" title="Microsoft Assistance Markup Language (страница отсутствует)">MAML</a></li>
+<li><a href="/w/index.php?title=Music_Encoding_Initiative&amp;action=edit&amp;redlink=1" class="new" title="Music Encoding Initiative (страница отсутствует)">MEI</a></li>
+<li><a href="/w/index.php?title=MusicXML&amp;action=edit&amp;redlink=1" class="new" title="MusicXML (страница отсутствует)">MusicXML</a></li>
+<li><a href="/w/index.php?title=OMDoc&amp;action=edit&amp;redlink=1" class="new" title="OMDoc (страница отсутствует)">OMDoc</a></li>
+<li><a href="/w/index.php?title=OpenMath&amp;action=edit&amp;redlink=1" class="new" title="OpenMath (страница отсутствует)">OpenMath</a></li>
+<li><a href="/wiki/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D1%80%D0%B0%D1%8F_%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F" title="Простая старая документация">POD</a></li>
+<li><a href="/w/index.php?title=Remote_Telescope_Markup_Language&amp;action=edit&amp;redlink=1" class="new" title="Remote Telescope Markup Language (страница отсутствует)">RTML</a></li>
+<li><a href="/wiki/ReStructuredText" title="ReStructuredText">ReST</a></li>
+<li><a href="/w/index.php?title=RTML&amp;action=edit&amp;redlink=1" class="new" title="RTML (страница отсутствует)">RTML</a></li>
+<li><a href="/w/index.php?title=Revisable-Form_Text&amp;action=edit&amp;redlink=1" class="new" title="Revisable-Form Text (страница отсутствует)">RFT</a></li>
+<li><a href="/wiki/S1000D" title="S1000D">S1000D</a></li>
+<li><a href="/w/index.php?title=Text_Encoding_Initiative&amp;action=edit&amp;redlink=1" class="new" title="Text Encoding Initiative (страница отсутствует)">TEI</a></li>
+<li><a href="/wiki/Texinfo" title="Texinfo">Texinfo</a></li>
+<li><a href="/wiki/TOML" title="TOML">TOML</a></li>
+<li><a href="/w/index.php?title=Troff&amp;action=edit&amp;redlink=1" class="new" title="Troff (страница отсутствует)">troff</a></li>
+<li><a href="/wiki/WML" title="WML">WML</a></li>
+<li><a href="/w/index.php?title=WapTV&amp;action=edit&amp;redlink=1" class="new" title="WapTV (страница отсутствует)">WapTV</a></li>
+<li><a href="/wiki/XAML" title="XAML">XAML</a></li>
+<li><a href="/wiki/YAML" title="YAML">YAML</a></li>
+<li><a href="/w/index.php?title=Z_Format&amp;action=edit&amp;redlink=1" class="new" title="Z Format (страница отсутствует)">Z Format</a></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐5c9fc7f974‐tk2kw
+Cached time: 20260213072111
+Cache expiry: 1802
+Reduced expiry: true
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.525 seconds
+Real time usage: 0.728 seconds
+Preprocessor visited node count: 4482/1000000
+Revision size: 41982/2097152 bytes
+Post‐expand include size: 66607/2097152 bytes
+Template argument size: 4790/2097152 bytes
+Highest expansion depth: 23/100
+Expensive parser function count: 31/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 42188/5000000 bytes
+Lua time usage: 0.325/10.000 seconds
+Lua memory usage: 9405780/52428800 bytes
+Number of Wikibase entities loaded: 13/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  644.161      1 -total
+ 47.75%  307.590      1 Шаблон:Файловый_формат
+ 46.57%  300.004      1 Шаблон:Карточка
+ 21.64%  139.365      1 Шаблон:Примечания
+ 14.16%   91.192      3 Шаблон:Wikidata
+ 13.57%   87.433      1 Шаблон:Нет_источников_в_разделе
+ 12.79%   82.365      1 Шаблон:Нет_источников
+ 12.64%   81.408      2 Шаблон:Cite_news
+  8.24%   53.062      1 Шаблон:Ambox
+  7.61%   49.028      1 Шаблон:IPAc-en
+-->
+
+<!-- Saved in parser cache with key ruwiki:stable-pcache:198033:|#|:idhash:canonical and timestamp 20260213072111 and revision id 150979769. Rendering was triggered because: unknown
+ -->
+</div><noscript><img src="https://ru.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Источник — <a dir="ltr" href="https://ru.wikipedia.org/w/index.php?title=JSON&amp;oldid=150979769">https://ru.wikipedia.org/w/index.php?title=JSON&amp;oldid=150979769</a></div></div>
+		<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8" title="Служебная:Категории">Категории</a>: <ul><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D1%8B_%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2" title="Категория:Форматы файлов">Форматы файлов</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B5%D0%B1-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" title="Категория:Веб-программирование">Веб-программирование</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:AJAX" title="Категория:AJAX">AJAX</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:JavaScript" title="Категория:JavaScript">JavaScript</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Скрытые категории: <ul><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B,_%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D1%8E%D1%89%D0%B8%D0%B5_%D1%83%D1%81%D1%82%D0%B0%D1%80%D0%B5%D0%B2%D1%88%D0%B8%D0%B9_%D1%82%D0%B5%D0%B3_source" title="Категория:Страницы, использующие устаревший тег source">Страницы, использующие устаревший тег source</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:Cite_web_(%D0%BD%D0%B5_%D1%83%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD_%D1%8F%D0%B7%D1%8B%D0%BA)" title="Категория:Википедия:Cite web (не указан язык)">Википедия:Cite web (не указан язык)</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:Cite_web_(%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C_webcitation-%D0%B0%D1%80%D1%85%D0%B8%D0%B2:_deadlink_no)" title="Категория:Википедия:Cite web (заменить webcitation-архив: deadlink no)">Википедия:Cite web (заменить webcitation-архив: deadlink no)</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8_%D1%81_%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8_%D0%B8%D0%B7_%D0%92%D0%B8%D0%BA%D0%B8%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85" title="Категория:Википедия:Статьи с источниками из Викиданных">Википедия:Статьи с источниками из Викиданных</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D0%A0%D0%9E:%D0%98%D0%A2:%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8_%D0%BF%D0%BE_%D0%B0%D0%BB%D1%84%D0%B0%D0%B2%D0%B8%D1%82%D1%83" title="Категория:ПРО:ИТ:Статьи по алфавиту">ПРО:ИТ:Статьи по алфавиту</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D0%A0%D0%9E:%D0%98%D0%A2:%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0:_%D0%B2_%D1%82%D0%B5%D0%BA%D1%83%D1%89%D0%B5%D0%BC_%D0%B3%D0%BE%D0%B4%D1%83" title="Категория:ПРО:ИТ:Последняя правка: в текущем году">ПРО:ИТ:Последняя правка: в текущем году</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8_%D1%81_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B0%D0%BC%D0%B8_%D0%B1%D0%B5%D0%B7_%D1%81%D1%81%D1%8B%D0%BB%D0%BE%D0%BA_%D0%BD%D0%B0_%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8_%D1%81_%D0%BC%D0%B0%D1%8F_2018_%D0%B3%D0%BE%D0%B4%D0%B0" title="Категория:Википедия:Статьи с разделами без ссылок на источники с мая 2018 года">Википедия:Статьи с разделами без ссылок на источники с мая 2018 года</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8_%D0%B1%D0%B5%D0%B7_%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_(%D1%82%D0%B8%D0%BF:_%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82_%D1%84%D0%B0%D0%B9%D0%BB%D0%B0)" title="Категория:Википедия:Статьи без источников (тип: формат файла)">Википедия:Статьи без источников (тип: формат файла)</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8_%D1%81_%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B0%D0%BC%D0%B8_%D0%BA%D0%BE%D0%B4%D0%B0_JavaScript" title="Категория:Статьи с примерами кода JavaScript">Статьи с примерами кода JavaScript</a></li><li><a href="/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B,_%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D1%8E%D1%89%D0%B8%D0%B5_%D0%B2%D0%BE%D0%BB%D1%88%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5_%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8_RFC" title="Категория:Страницы, использующие волшебные ссылки RFC">Страницы, использующие волшебные ссылки RFC</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Навигация</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="mw-portlet mw-portlet-personal vector-user-menu-legacy vector-menu" aria-labelledby="p-personal-label"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Персональные инструменты</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anonuserpage" class="mw-list-item"><span title="Страница участника для моего IP">Вы не представились системе</span></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9C%D0%BE%D1%91_%D0%BE%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" title="Страница обсуждений для моего IP [n]" accesskey="n"><span>Обсуждение</span></a></li><li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9C%D0%BE%D0%B9_%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4" title="Список правок, сделанных с этого IP-адреса [y]" accesskey="y"><span>Вклад</span></a></li><li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C_%D1%83%D1%87%D1%91%D1%82%D0%BD%D1%83%D1%8E_%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C&amp;returnto=JSON" title="Мы предлагаем вам создать учётную запись и войти в систему, хотя это и не обязательно."><span>Создать учётную запись</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D1%85%D0%BE%D0%B4&amp;returnto=JSON" title="Здесь можно зарегистрироваться в системе, но это необязательно. [o]" accesskey="o"><span>Войти</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-associated-pages" class="mw-portlet mw-portlet-associated-pages vector-menu-tabs vector-menu-tabs-legacy vector-menu" aria-labelledby="p-associated-pages-label"  >
+	<h3
+		id="p-associated-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">associated-pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/JSON" title="Просмотреть контентную страницу [c]" accesskey="c"><span>Статья</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/%D0%9E%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5:JSON" rel="discussion" title="Обсуждение основной страницы [t]" accesskey="t"><span>Обсуждение</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-variants-label"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">русский</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy vector-menu" aria-labelledby="p-views-label"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Просмотры</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected icon mw-list-item"><a href="/wiki/JSON"><span>Читать</span></a></li><li id="ca-ve-edit" class="mw-list-item"><a href="/w/index.php?title=JSON&amp;veaction=edit" title="Редактировать данную страницу [v]" accesskey="v"><span>Править</span></a></li><li id="ca-edit" class="collapsible mw-list-item"><a href="/w/index.php?title=JSON&amp;action=edit" title="Править исходный текст этой страницы [e]" accesskey="e"><span>Править код</span></a></li><li id="ca-history" class="icon mw-list-item"><a href="/w/index.php?title=JSON&amp;action=history" title="Журнал изменений страницы [h]" accesskey="h"><span>История</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-cactions-label"  title="Больше возможностей" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Ещё</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<h3 >Поиск</h3>
+	<form action="/w/index.php" id="searchform" class="vector-search-box-form">
+		<div id="simpleSearch"
+			class="vector-search-box-inner"
+			 data-search-loc="header-navigation">
+			<input class="vector-search-box-input"
+				 type="search" name="search" placeholder="Искать в Википедии" aria-label="Искать в Википедии" autocapitalize="none" spellcheck="false" title="Искать в Википедии [f]" accesskey="f" id="searchInput"
+			>
+			<input type="hidden" name="title" value="Служебная:Поиск">
+			<input id="mw-searchButton"
+				 class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Найти страницы, содержащие указанный текст" value="Найти">
+			<input id="searchButton"
+				 class="searchButton" type="submit" name="go" title="Перейти к странице, имеющей в точности такое название" value="Перейти">
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"
+			title="Перейти на заглавную страницу"></a>
+	</div>
+	
+<nav id="p-navigation" class="mw-portlet mw-portlet-navigation vector-menu-portal portal vector-menu" aria-labelledby="p-navigation-label"  >
+	<h3
+		id="p-navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Навигация</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Перейти на заглавную страницу [z]" accesskey="z"><span>Заглавная страница</span></a></li><li id="n-content" class="mw-list-item"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5"><span>Содержание</span></a></li><li id="n-featured" class="mw-list-item"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%98%D0%B7%D0%B1%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5_%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8" title="Статьи, считающиеся лучшими статьями проекта"><span>Избранные статьи</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0" title="Посмотреть случайно выбранную страницу [x]" accesskey="x"><span>Случайная статья</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A2%D0%B5%D0%BA%D1%83%D1%89%D0%B8%D0%B5_%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F" title="Статьи о текущих событиях в мире"><span>Текущие события</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=ru.wikipedia.org&amp;uselang=ru" title="Поддержите нас"><span>Пожертвовать</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-participation" class="mw-portlet mw-portlet-participation vector-menu-portal portal vector-menu" aria-labelledby="p-participation-label"  >
+	<h3
+		id="p-participation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Участие</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-bug_in_article" class="mw-list-item"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F_%D0%BE%D0%B1_%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0%D1%85" title="Сообщить об ошибке в этой статье"><span>Сообщить об ошибке</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0:%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5"><span>Как править статьи</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE" title="О проекте, о том, чем здесь можно заниматься, а также — где что находится"><span>Сообщество</span></a></li><li id="n-forum" class="mw-list-item"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A4%D0%BE%D1%80%D1%83%D0%BC" title="Форум участников Википедии"><span>Форум</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0" title="Место расположения Справки"><span>Справка</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D0%B5%D0%B6%D0%B8%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8" title="Список последних изменений [r]" accesskey="r"><span>Свежие правки</span></a></li><li id="n-newpages" class="mw-list-item"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9D%D0%BE%D0%B2%D1%8B%D0%B5_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B" title="Список недавно созданных страниц"><span>Новые страницы</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%BF%D0%B5%D1%86%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B" title="Список служебных страниц [q]" accesskey="q"><span>Служебные страницы</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="mw-portlet mw-portlet-tb vector-menu-portal portal vector-menu" aria-labelledby="p-tb-label"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Инструменты</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B8_%D1%81%D1%8E%D0%B4%D0%B0/JSON" title="Список всех страниц, ссылающихся на данную [j]" accesskey="j"><span>Ссылки сюда</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A1%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B8/JSON" rel="nofollow" title="Последние изменения в страницах, на которые ссылается эта страница [k]" accesskey="k"><span>Связанные правки</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=JSON&amp;oldid=150979769" title="Постоянная ссылка на эту версию страницы"><span>Постоянная ссылка</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=JSON&amp;action=info" title="Подробнее об этой странице"><span>Сведения о странице</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%A6%D0%B8%D1%82%D0%B0%D1%82%D0%B0&amp;page=JSON&amp;id=150979769&amp;wpFormIdentifier=titleform" title="Информация о том, как цитировать эту страницу"><span>Цитировать страницу</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:UrlShortener&amp;url=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2FJSON"><span>Получить короткий URL</span></a></li><li id="t-urlshortener-qrcode" class="mw-list-item"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:QrCode&amp;url=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2FJSON"><span>Скачать QR-код</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-coll-print_export" class="mw-portlet mw-portlet-coll-print_export vector-menu-portal portal vector-menu" aria-labelledby="p-coll-print_export-label"  >
+	<h3
+		id="p-coll-print_export-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Печать/экспорт</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:DownloadAsPdf&amp;page=JSON&amp;action=show-download-screen" title="Скачать эту страницу как файл PDF"><span>Скачать как PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=JSON&amp;printable=yes" title="Версия этой страницы для печати [p]" accesskey="p"><span>Версия для печати</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-wikibase-otherprojects" class="mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal vector-menu" aria-labelledby="p-wikibase-otherprojects-label"  >
+	<h3
+		id="p-wikibase-otherprojects-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">В других проектах</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:JavaScript_Object_Notation" hreflang="en"><span>Викисклад</span></a></li><li class="wb-otherproject-link wb-otherproject-mediawiki mw-list-item"><a href="https://www.mediawiki.org/wiki/JSON" hreflang="en"><span>Медиавики</span></a></li><li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2063" title="Ссылка на связанный элемент репозитория данных [g]" accesskey="g"><span>Элемент Викиданных</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-lang" class="mw-portlet mw-portlet-lang vector-menu-portal portal vector-menu" aria-labelledby="p-lang-label"  >
+	<h3
+		id="p-lang-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">На других языках</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/JSON" title="JSON — арабский" lang="ar" hreflang="ar" data-title="JSON" data-language-autonym="العربية" data-language-local-name="арабский" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a href="https://az.wikipedia.org/wiki/JSON" title="JSON — азербайджанский" lang="az" hreflang="az" data-title="JSON" data-language-autonym="Azərbaycanca" data-language-local-name="азербайджанский" class="interlanguage-link-target"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/JSON" title="JSON — белорусский" lang="be" hreflang="be" data-title="JSON" data-language-autonym="Беларуская" data-language-local-name="белорусский" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/JSON" title="JSON — болгарский" lang="bg" hreflang="bg" data-title="JSON" data-language-autonym="Български" data-language-local-name="болгарский" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a href="https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A7%87%E0%A6%B8%E0%A6%A8" title="জেসন — бенгальский" lang="bn" hreflang="bn" data-title="জেসন" data-language-autonym="বাংলা" data-language-local-name="бенгальский" class="interlanguage-link-target"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/JSON" title="JSON — каталанский" lang="ca" hreflang="ca" data-title="JSON" data-language-autonym="Català" data-language-local-name="каталанский" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/JavaScript_Object_Notation" title="JavaScript Object Notation — чешский" lang="cs" hreflang="cs" data-title="JavaScript Object Notation" data-language-autonym="Čeština" data-language-local-name="чешский" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/JSON" title="JSON — немецкий" lang="de" hreflang="de" data-title="JSON" data-language-autonym="Deutsch" data-language-local-name="немецкий" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/JSON" title="JSON — греческий" lang="el" hreflang="el" data-title="JSON" data-language-autonym="Ελληνικά" data-language-local-name="греческий" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/JSON" title="JSON — английский" lang="en" hreflang="en" data-title="JSON" data-language-autonym="English" data-language-local-name="английский" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/JSON" title="JSON — испанский" lang="es" hreflang="es" data-title="JSON" data-language-autonym="Español" data-language-local-name="испанский" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a href="https://et.wikipedia.org/wiki/JSON" title="JSON — эстонский" lang="et" hreflang="et" data-title="JSON" data-language-autonym="Eesti" data-language-local-name="эстонский" class="interlanguage-link-target"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/JavaScript_Object_Notation" title="JavaScript Object Notation — баскский" lang="eu" hreflang="eu" data-title="JavaScript Object Notation" data-language-autonym="Euskara" data-language-local-name="баскский" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D8%AC%DB%8C%E2%80%8C%D8%B3%D8%A7%D9%86" title="جی‌سان — персидский" lang="fa" hreflang="fa" data-title="جی‌سان" data-language-autonym="فارسی" data-language-local-name="персидский" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/JSON" title="JSON — финский" lang="fi" hreflang="fi" data-title="JSON" data-language-autonym="Suomi" data-language-local-name="финский" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/JavaScript_Object_Notation" title="JavaScript Object Notation — французский" lang="fr" hreflang="fr" data-title="JavaScript Object Notation" data-language-autonym="Français" data-language-local-name="французский" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/JavaScript_Object_Notation" title="JavaScript Object Notation — галисийский" lang="gl" hreflang="gl" data-title="JavaScript Object Notation" data-language-autonym="Galego" data-language-local-name="галисийский" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/JSON" title="JSON — иврит" lang="he" hreflang="he" data-title="JSON" data-language-autonym="עברית" data-language-local-name="иврит" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a href="https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A5%87%E0%A4%B8%E0%A4%A8" title="जेसन — хинди" lang="hi" hreflang="hi" data-title="जेसन" data-language-autonym="हिन्दी" data-language-local-name="хинди" class="interlanguage-link-target"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/JSON" title="JSON — хорватский" lang="hr" hreflang="hr" data-title="JSON" data-language-autonym="Hrvatski" data-language-local-name="хорватский" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/JSON" title="JSON — венгерский" lang="hu" hreflang="hu" data-title="JSON" data-language-autonym="Magyar" data-language-local-name="венгерский" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a href="https://hy.wikipedia.org/wiki/JSON" title="JSON — армянский" lang="hy" hreflang="hy" data-title="JSON" data-language-autonym="Հայերեն" data-language-local-name="армянский" class="interlanguage-link-target"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/JSON" title="JSON — индонезийский" lang="id" hreflang="id" data-title="JSON" data-language-autonym="Bahasa Indonesia" data-language-local-name="индонезийский" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a href="https://io.wikipedia.org/wiki/JSON" title="JSON — идо" lang="io" hreflang="io" data-title="JSON" data-language-autonym="Ido" data-language-local-name="идо" class="interlanguage-link-target"><span>Ido</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/JavaScript_Object_Notation" title="JavaScript Object Notation — итальянский" lang="it" hreflang="it" data-title="JavaScript Object Notation" data-language-autonym="Italiano" data-language-local-name="итальянский" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/JSON" title="JSON — японский" lang="ja" hreflang="ja" data-title="JSON" data-language-autonym="日本語" data-language-local-name="японский" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-kaa mw-list-item"><a href="https://kaa.wikipedia.org/wiki/JSON" title="JSON — каракалпакский" lang="kaa" hreflang="kaa" data-title="JSON" data-language-autonym="Qaraqalpaqsha" data-language-local-name="каракалпакский" class="interlanguage-link-target"><span>Qaraqalpaqsha</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/JSON" title="JSON — корейский" lang="ko" hreflang="ko" data-title="JSON" data-language-autonym="한국어" data-language-local-name="корейский" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a href="https://ky.wikipedia.org/wiki/JSON" title="JSON — киргизский" lang="ky" hreflang="ky" data-title="JSON" data-language-autonym="Кыргызча" data-language-local-name="киргизский" class="interlanguage-link-target"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a href="https://lt.wikipedia.org/wiki/JSON" title="JSON — литовский" lang="lt" hreflang="lt" data-title="JSON" data-language-autonym="Lietuvių" data-language-local-name="литовский" class="interlanguage-link-target"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wikipedia.org/wiki/JSON" title="JSON — латышский" lang="lv" hreflang="lv" data-title="JSON" data-language-autonym="Latviešu" data-language-local-name="латышский" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a href="https://ml.wikipedia.org/wiki/%E0%B4%9C%E0%B5%86%E0%B4%B8%E0%B5%BA" title="ജെസൺ — малаялам" lang="ml" hreflang="ml" data-title="ജെസൺ" data-language-autonym="മലയാളം" data-language-local-name="малаялам" class="interlanguage-link-target"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a href="https://ms.wikipedia.org/wiki/JSON" title="JSON — малайский" lang="ms" hreflang="ms" data-title="JSON" data-language-autonym="Bahasa Melayu" data-language-local-name="малайский" class="interlanguage-link-target"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/JSON" title="JSON — нидерландский" lang="nl" hreflang="nl" data-title="JSON" data-language-autonym="Nederlands" data-language-local-name="нидерландский" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/JSON" title="JSON — норвежский букмол" lang="nb" hreflang="nb" data-title="JSON" data-language-autonym="Norsk bokmål" data-language-local-name="норвежский букмол" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/JSON" title="JSON — польский" lang="pl" hreflang="pl" data-title="JSON" data-language-autonym="Polski" data-language-local-name="польский" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/JSON" title="JSON — португальский" lang="pt" hreflang="pt" data-title="JSON" data-language-autonym="Português" data-language-local-name="португальский" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/JSON" title="JSON — румынский" lang="ro" hreflang="ro" data-title="JSON" data-language-autonym="Română" data-language-local-name="румынский" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wikipedia.org/wiki/JSON" title="JSON — Simple English" lang="en-simple" hreflang="en-simple" data-title="JSON" data-language-autonym="Simple English" data-language-local-name="Simple English" class="interlanguage-link-target"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/JSON" title="JSON — албанский" lang="sq" hreflang="sq" data-title="JSON" data-language-autonym="Shqip" data-language-local-name="албанский" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/JSON" title="JSON — сербский" lang="sr" hreflang="sr" data-title="JSON" data-language-autonym="Српски / srpski" data-language-local-name="сербский" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/JSON" title="JSON — шведский" lang="sv" hreflang="sv" data-title="JSON" data-language-autonym="Svenska" data-language-local-name="шведский" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wikipedia.org/wiki/%E0%AE%AF%E0%AF%87%E0%AE%9A%E0%AE%A3%E0%AF%8D" title="யேசண் — тамильский" lang="ta" hreflang="ta" data-title="யேசண்" data-language-autonym="தமிழ்" data-language-local-name="тамильский" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a href="https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%88%E0%B8%8B%E0%B8%B1%E0%B8%99" title="เจซัน — тайский" lang="th" hreflang="th" data-title="เจซัน" data-language-autonym="ไทย" data-language-local-name="тайский" class="interlanguage-link-target"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/JSON" title="JSON — турецкий" lang="tr" hreflang="tr" data-title="JSON" data-language-autonym="Türkçe" data-language-local-name="турецкий" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/JSON" title="JSON — украинский" lang="uk" hreflang="uk" data-title="JSON" data-language-autonym="Українська" data-language-local-name="украинский" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a href="https://uz.wikipedia.org/wiki/JSON" title="JSON — узбекский" lang="uz" hreflang="uz" data-title="JSON" data-language-autonym="Oʻzbekcha / ўзбекча" data-language-local-name="узбекский" class="interlanguage-link-target"><span>Oʻzbekcha / ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/JSON" title="JSON — вьетнамский" lang="vi" hreflang="vi" data-title="JSON" data-language-autonym="Tiếng Việt" data-language-local-name="вьетнамский" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/JSON" title="JSON — китайский" lang="zh" hreflang="zh" data-title="JSON" data-language-autonym="中文" data-language-local-name="китайский" class="interlanguage-link-target"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a href="https://zh-yue.wikipedia.org/wiki/JSON" title="JSON — кантонский" lang="yue" hreflang="yue" data-title="JSON" data-language-autonym="粵語" data-language-local-name="кантонский" class="interlanguage-link-target"><span>粵語</span></a></li>
+		</ul>
+		<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2063#sitelinks-wikipedia" title="Править ссылки на другие языки" class="wbc-editpage">Править ссылки</a></span></div>
+	</div>
+</nav>
+
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> Эта страница в последний раз была отредактирована 3 января 2026 года в 14:59.</li>
+	<li id="footer-info-copyright">Текст доступен по <a rel="nofollow" class="external text" href="//creativecommons.org/licenses/by-sa/4.0/deed.ru">лицензии Creative Commons «С указанием авторства — С сохранением условий» (CC BY-SA)</a>; в отдельных случаях могут действовать дополнительные условия.
+<span class="noprint">Подробнее см. <a class="external text" href="https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/ru">Условия использования</a>.</span><br />
+Wikipedia®&#160;— зарегистрированный товарный знак некоммерческой организации <a rel="nofollow" class="external text" href="https://wikimediafoundation.org/ru/">«Фонд Викимедиа» (Wikimedia Foundation, Inc.)</a></li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/ru">Политика конфиденциальности</a></li>
+	<li id="footer-places-about"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5">Описание Википедии</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9E%D1%82%D0%BA%D0%B0%D0%B7_%D0%BE%D1%82_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8">Отказ от ответственности</a></li>
+	<li id="footer-places-contact"><a href="//ru.wikipedia.org/wiki/Википедия:Контакты">Свяжитесь с нами</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Policy:Universal_Code_of_Conduct/ru">Кодекс поведения</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Разработчики</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/ru.wikipedia.org">Статистика</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Заявление о куки</a></li>
+	<li id="footer-places-mobileview"><a href="//ru.wikipedia.org/w/index.php?title=JSON&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Мобильная версия</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+</footer>
+
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet vector-menu-portal portal" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.eqiad.main-5c9fc7f974-n5ltp","wgBackendResponseTime":174,"wgPageParseReport":{"limitreport":{"cputime":"0.525","walltime":"0.728","ppvisitednodes":{"value":4482,"limit":1000000},"revisionsize":{"value":41982,"limit":2097152},"postexpandincludesize":{"value":66607,"limit":2097152},"templateargumentsize":{"value":4790,"limit":2097152},"expansiondepth":{"value":23,"limit":100},"expensivefunctioncount":{"value":31,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":42188,"limit":5000000},"entityaccesscount":{"value":13,"limit":500},"timingprofile":["100.00%  644.161      1 -total"," 47.75%  307.590      1 Шаблон:Файловый_формат"," 46.57%  300.004      1 Шаблон:Карточка"," 21.64%  139.365      1 Шаблон:Примечания"," 14.16%   91.192      3 Шаблон:Wikidata"," 13.57%   87.433      1 Шаблон:Нет_источников_в_разделе"," 12.79%   82.365      1 Шаблон:Нет_источников"," 12.64%   81.408      2 Шаблон:Cite_news","  8.24%   53.062      1 Шаблон:Ambox","  7.61%   49.028      1 Шаблон:IPAc-en"]},"scribunto":{"limitreport-timeusage":{"value":"0.325","limit":"10.000"},"limitreport-memusage":{"value":9405780,"limit":52428800},"limitreport-logs":"Loaded datatype commonsMedia of P154 from wikidata, consider passing datatype argument to formatProperty call or to Wikidata/config\nLoaded datatype commonsMedia of P2910 from wikidata, consider passing datatype argument to formatProperty call or to Wikidata/config\nLoaded datatype string of P1195 from wikidata, consider passing datatype argument to formatProperty call or to Wikidata/config\nLoaded datatype string of P1163 from wikidata, consider passing datatype argument to formatProperty call or to Wikidata/config\nLoaded datatype wikibase-item of P178 from wikidata, consider passing datatype argument to formatProperty call or to Wikidata/config\nLoaded datatype time of P577 from wikidata, consider passing datatype argument to formatProperty call or to Wikidata/config\nLoaded datatype string of P348 from wikidata, consider passing datatype argument to formatProperty call or to Wikidata/config\nLoaded datatype wikibase-item of P144 from wikidata, consider passing datatype argument to formatProperty call or to Wikidata/config\n"},"cachereport":{"origin":"mw-web.eqiad.main-5c9fc7f974-tk2kw","timestamp":"20260213072111","ttl":1802,"transientcontent":true}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"JSON","url":"https:\/\/ru.wikipedia.org\/wiki\/JSON","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2063","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2063","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"\u0424\u043e\u043d\u0434 \u0412\u0438\u043a\u0438\u043c\u0435\u0434\u0438\u0430","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-05-05T12:08:46Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/c9\/JSON_vector_logo.svg","headline":"\u0442\u0435\u043a\u0441\u0442\u043e\u0432\u044b\u0439 \u0444\u043e\u0440\u043c\u0430\u0442 \u043e\u0431\u043c\u0435\u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u043c\u0438"}</script>
+</body>
+</html>
